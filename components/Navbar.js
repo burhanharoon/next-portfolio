@@ -1,8 +1,25 @@
+import * as React from 'react';
 import Link from 'next/link';
 
 const Navbar = () => {
+    const [colorChange, setColorchange] = React.useState(false);
+
+    const changeNavbarColor = () =>{
+        if(window.scrollY >= 100){
+          setColorchange(true);
+        }
+        else{
+          setColorchange(false);
+        }
+     };
+
+     React.useEffect(() => {
+         window.addEventListener('scroll', changeNavbarColor);
+         return () => window.removeEventListener('scroll', changeNavbarColor)
+     }, [])
+
     return (
-        <nav className='text-darkBlue flex justify-between bg-[#EFF6FF] p-4 border-2 border-b-white'>
+        <nav className={`text-darkBlue flex justify-between p-4 border-2 border-b-white fixed w-full navbar ${colorChange ? 'bg-white' : 'bg-[#EFF6FF]'} `}>
             <h1 className='name text-2xl'>Burhan Haroon</h1>
             <nav className='hidden sm:flex gap-5 text-lg'>
                 <Link href='/'>Home</Link>
