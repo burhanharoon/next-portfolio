@@ -20,7 +20,7 @@ const Navbar = () => {
 
     return (
       <nav
-        className={`text-darkBlue flex justify-between p-4 border-2 border-b-white sticky top-0 w-full navbar ${
+        className={`text-darkBlue flex justify-between p-4 border-b-2 border-b-white sticky top-0 w-full navbar ${
           colorChange ? 'bg-white' : 'bg-[#EFF6FF]'
         } `}
       >
