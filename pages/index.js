@@ -16,10 +16,10 @@ export default function Home() {
               Hi, Im Burhan Haroon - a Software Engineer
             </h1>
             <p className="text-base sm:text-lg">
-              I&apos;m a self taught computer programmer and a Final year
+              I am a self taught computer programmer and a Final year
               Computer Science student at UET Lahore. I wrote my first code at
               the age 12 in a programming language called GW-BASIC. I love to
-              develop webs and favorite tech stack is MERN. Other than that I'm
+              develop webs and favorite tech stack is MERN. Other than that I am
               a cummunity builder and have a positive mindset towards growing
               and learning. Lastly, i sometimes write tech articles on dev.to 📝
             </p>
