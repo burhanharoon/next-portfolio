@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
     const [colorChange, setColorchange] = React.useState(false);
+    const [isMenuOpen, setIsMenuOpen]= React.useState(false)
 
     const changeNavbarColor = () =>{
         if(window.scrollY >= 100){
