@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 
 const Navbar = () => {
-  const [changeColor, setColorChange] = useState(false);
+  const [colorChange, setColorChange] = React.useState(false);
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const changeNavbarColor = () =>
     window.scrollY >= 80 ? setColorChange(true) : setColorChange(false);
@@ -15,7 +16,7 @@ const Navbar = () => {
   return (
     <nav
       className={`text-darkBlue flex justify-between p-4 sticky top-0 w-full navbar transition-all ease-linear duration-300 ${
-        changeColor ? 'bg-white shadow-lg' : 'bg-[#EFF6FF] shadow-none'
+        colorChange ? 'bg-white shadow-lg' : 'bg-[#EFF6FF] shadow-none'
       } `}
     >
       <h1 className='name text-2xl'>Burhan Haroon</h1>
