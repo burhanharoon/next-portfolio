@@ -53,6 +53,14 @@ const Navbar = () => {
             Blogs
           </a>
           <a
+            href='/'
+            target='_blank'
+            rel='noreferrer'
+            className='hover:bg-blue-50 p-2 sm:p-0 rounded-md'
+          >
+            Contact Me
+          </a>
+          <a
             href='https://github.com/burhanharoon'
             target='_blank'
             rel='noreferrer'
