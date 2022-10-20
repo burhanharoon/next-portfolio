@@ -14,10 +14,10 @@ const Home = () => (
     </Head>
     <Navbar />
     <section className='text-darkBlue bg-[#EFF6FF] h-full min-h-[600px] p-4 pt-8 sm:p-12 flex flex-col gap-8 justify-center'>
-      <div className=' flex flex-col md:flex-row gap-12 md:gap-28 items-center'>
+      <div className=' flex flex-col-reverse md:flex-row gap-12 md:gap-28 items-center'>
         <div className='w-full md:w-[50%] leading-relaxed flex flex-col gap-8'>
           <h1 className='font-semibold text-2xl sm:text-5xl '>
-            Hi, Im Burhan Haroon - a Software Engineer
+            Hi, I'm Burhan Haroon - a Software Engineer.
           </h1>
           <p className='text-base sm:text-lg'>
             I am a self taught computer programmer and a Final year Computer
@@ -58,7 +58,7 @@ const Home = () => (
     </section>
 
     <section className='p-6 md:p-12'>
-      <h1 className='font-semibold text-center text-2xl sm:text-3xl text-darkBlue my-4 mb-8 max-w-[22rem] m-auto sm:max-w-auto'>
+      <h1 className='font-semibold text-center text-2xl sm:text-3xl text-darkBlue my-4 mb-8 max-w-[22rem] m-auto sm:max-w-full'>
         What are the Tools & Technologies that I use?
       </h1>
 
