@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const SkillCard = ({ title = '', description = '', icon = <svg></svg> }) => {
   return (
@@ -9,7 +9,7 @@ const SkillCard = ({ title = '', description = '', icon = <svg></svg> }) => {
       <h3 className='font-medium text-lg text-black'>{title}</h3>
       <p>{description}</p>
     </div>
-  );
-};
+  )
+}
 
-export default SkillCard;
+export default SkillCard
