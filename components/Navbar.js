@@ -42,7 +42,7 @@ const Navbar = () => {
           } transition-all ease-linear`} style={{alignItems:"center !important"}}
         >
           <Link href='/'>
-            <div className='hover:bg-blue-50 p-2 sm:p-0 rounded-md'>Home</div>
+            <div className='hover:bg-blue-50 p-2 sm:p-0 rounded-md hover:cursor-pointer'>Home</div>
           </Link>
           <a
             href='https://dev.to/burhanharoon'
@@ -65,28 +65,28 @@ const Navbar = () => {
             target='_blank'
             rel='noreferrer'
           >
-            <Git className="h-10 w-10" />
+            <Git className="h-8 w-8" />
           </a>
           <a
           href='https://instagram.com/kya.bne.ga.burhan.tera'
           target='_blank'
           rel='noreferrer'
         >
-          <Instagram className="h-10 w-10" />
+          <Instagram className="h-8 w-8" />
         </a>
         <a
         href='https://www.linkedin.com/in/burhandev'
         target='_blank'
         rel='noreferrer'
       >
-        <Linkedin className="h-10 w-10" />
+        <Linkedin className="h-8 w-8" />
       </a>
         <a
         href='https://dev.to/burhanharoon'
         target='_blank'
         rel='noreferrer'
       >
-        <Dev className="h-10 w-10" />
+        <Dev className="h-8 w-8" />
       </a>
         </nav>
         <button
