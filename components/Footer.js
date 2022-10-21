@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
         <section className="flex flex-col space-y-4 text-sm">
           <p className="font-bold">Navigation</p>
-          <a href="/">Home</a>
+          <Link href="/">Home</Link>
           <a href="https://dev.to/burhanharoon" target="_blank" rel="noreferrer">
             Blogs
           </a>
@@ -23,12 +23,11 @@ const Footer = () => {
         </section>
         <section className="flex flex-col space-y-4 text-sm">
           <p className="font-bold">Social Platforms</p>
-          <a href="https://www.linkedin.com/in/burhandev" target="_blank">
+          <a href="https://www.linkedin.com/in/burhandev" target="_blank" rel='noreferrer'>
             Linkedin
           </a>
-          <Link href="">Medium</Link>
-          <a href="https://instagram.com/kya.bne.ga.burhan.tera?igshid=YmMyMTA2M2Y=" target="_blank">Instagram</a>
-          <a href="https://github.com/burhanharoon" target="_blank">Github</a>
+          <a href="https://instagram.com/kya.bne.ga.burhan.tera?igshid=YmMyMTA2M2Y=" target="_blank" rel='noreferrer'>Instagram</a>
+          <a href="https://github.com/burhanharoon" target="_blank" rel='noreferrer'>Github</a>
         </section>
         <section className="flex flex-col space-y-4 text-sm">
           <p className="font-bold">Contact Us</p>
