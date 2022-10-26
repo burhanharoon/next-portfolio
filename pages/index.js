@@ -14,7 +14,6 @@ const Home = () => (
       <meta name='description' content='Burhan Haroon | Portfolio' />
       <link rel='icon' href='/favicon.ico' />
     </Head>
-    <Navbar />
     <section className='text-darkBlue bg-[#EFF6FF] h-full min-h-[600px] p-4 pt-8 sm:p-12 flex flex-col gap-8 justify-center items-center'>
       <div className=' flex flex-col-reverse md:flex-row gap-12 md:gap-28 items-center max-w-[1369px]'>
         <div className='w-full md:w-[50%] leading-relaxed flex flex-col gap-8'>
@@ -78,7 +77,6 @@ const Home = () => (
       </div>
       <div></div>
     </section>
-    <Footer />
   </>
 )
 
