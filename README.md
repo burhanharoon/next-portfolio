@@ -1,34 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Contribution Rules📚:
 
-First, run the development server:
+- You are allowed to make pull requests that break the rules. We just merge it ;)
+- Do NOT add any build steps e.g npm install (we want to keep this a simple static site)
+- Do NOT remove other content.
+- Styling/code can be pretty, ugly or stupid, big or small as long as it works
+- Add your name to the contributorsList file
+- Try to keep pull requests small to minimize merge conflicts
 
-```bash
-npm run dev
-# or
-yarn dev
+
+## Getting Started 🤩🤗:
+
+- Fork this repo (button on top)
+- Clone on your local machine
+
+```terminal
+git clone https://github.com/fineanmol/Hacktoberfest2022.git
+```
+- Navigate to project directory.
+```terminal
+cd Hacktoberfest2022
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Create a new Branch
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```markdown
+git checkout -b my-new-branch
+```
+- Add your Name to `contributors/contributorsList.js`
+```markdown
+git add .
+```
+- Commit your changes.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```markdown
+git commit -m "Relevant message"
+```
+- Then push 
+```markdown
+git push origin my-new-branch
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+- Create a new pull request from your forked repository
 
-To learn more about Next.js, take a look at the following resources:
+<br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Avoid Conflicts {Syncing your fork}
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+An easy way to avoid conflicts is to add an 'upstream' for your git repo, as other PR's may be merged while you're working on your branch/fork.   
 
-## Deploy on Vercel
+```terminal
+git remote add upstream https://github.com/fineanmol/Hacktoberfest2022
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+You can verify that the new remote has been added by typing
+```terminal
+git remote -v
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To pull any new changes from your parent repo simply run
+```terminal
+git merge upstream/master
+```
+
+This will give you any eventual conflicts and allow you to easily solve them in your repo. It's a good idea to use it frequently in between your own commits to make sure that your repo is up to date with its parent.
