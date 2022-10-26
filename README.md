@@ -1,34 +1,86 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+    <a href="https://hacktoberfest.digitalocean.com/">
+        <img src="https://raw.githubusercontent.com/keshavsingh4522/hacktoberfest2021/35fc6060c5ddead5792f29a2437fea160dbe9804/Assets/logo-hacktoberfest-full.f42e3b1.svg" width="30%">
+    </a>
+</p>
 
-## Getting Started
+<h1 align="center"> Hacktoberfest 2022 🎉</h1>
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
+# Note
+```py
+'''
+Always try to make more then 4 pull requests.
+Let's assume you have made only 4 pull request to different projects.
+but one project is excluded from hackoctoberfest event.
+Then your pull request will not be counted and you will just have 3 valid pull requests.
+If this happens then you will not get any swags or t-shirt.
+'''
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🗣 Let's COntribute to Open Sourse 🔥.
+📢 **This repository aims to help beginners 🤔 with their first successful Pull Request and Open Source Contribution.**
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<br>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## ⏳ Steps to Follow : 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+   - [X] **Register for [Hacktoberfest](https://hacktoberfest.digitalocean.com/) and get started to make your first PR.**
+   - [X] **Make 4 valid PRs during the period of (1st - 31st) October to earn cool swags.**
 
-## Learn More
+ <br>
 
-To learn more about Next.js, take a look at the following resources:
+## ❗ Contribution Rules :
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   * **You can Solve any Leetcode problem in any programming languages in the related Folder's,If language folder not exist then first create it and add your code in it but your program must be unique.**
+   * **The pull requests must contain commits made by yourself.**
+   * **The Commit message must contain Leetcode problem number**
+   * **Repeated codes will not be merged.**
+ <br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🌎 Steps to contribute:
+1. (Optional) If git is not install in your Laptop/PC:
+   1. Download Git from [here](https://git-scm.com/downloads) and then Install it.
+   2. Run your Git Bash, then copy and write the following Commands to Configure your git with your Github Account. (Required)
+     ```sh
+     git config --global user.name "your_username"
+     ```
+   3. Then Copy and paste the following command with your Github Email and run.
+     ```sh
+     git config --global user.email "your_email_address"
+     ```
+   4. You are Good to go👌👍.
+2. Fork this repository by clicking on the top right corner where it is written `Fork`.
+3. Now for Cloning the repository into you PC, copy the URL in the address bar and use the following command.
+```sh
+git clone url_you_just_copied
+```
+4. Now again open git bash in the directory you just clone the repository and execute the following commands replacing username with your GitHub username.
+```sh
+git checkout -b username
+```
+5. Open this cloned repository in your preferred code editor. 
+6. Go to the related Language Folder. Copy and paste following comments at the Top of your program and fill the information✌.
+```md
+Name: Here goes your name
 
-## Deploy on Vercel
+Username: Here goes your GitHub username
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Approach: It should be concise your solution approach to solve the problem
+```
+7. Once you have done all this, commit your changes to GitHub. You can do this with the following commands. Make sure you execute them in the precise order one after another in your terminal.
+```sh
+# copy and paste the following in the terminal
+git add .
+# copy and paste the following in the terminal after you have executed the previous command
+git commit -m "hacktoberfest contribution"
+# copy and paste the following in the terminal after you have executed the previous command
+git push -u origin your_github_username
+```
+8. Now open the forked repository on your GitHub. You will see a yellow box at the top telling you that some changes are pushed. You will also see a button called Compare & pull request. Click on it. (Note: if yellow box doesn't appear then wait for Half an hour, it will appear.)
+9. Now add a title, some description and you have opened a pull request in this repository💖.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+----------------------------------------------------------
+
+### <p align="center"> Show some ❤ by hitting the ⭐ button </p>
+
+----------------------------------------------------------
