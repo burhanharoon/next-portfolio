@@ -1,4 +1,7 @@
 <p align="center">
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
     <a href="https://hacktoberfest.digitalocean.com/">
         <img src="https://raw.githubusercontent.com/keshavsingh4522/hacktoberfest2021/35fc6060c5ddead5792f29a2437fea160dbe9804/Assets/logo-hacktoberfest-full.f42e3b1.svg" width="30%">
     </a>
@@ -82,6 +85,21 @@ git push -u origin your_github_username
 ## CONTRIBUTORS:
 
 &ensp;<img src="https://avatars.githubusercontent.com/u/89704304?v=4" width="10%"> &emsp; &emsp;&ensp;<img src="https://avatars.githubusercontent.com/u/64887608?v=4" width ="10%">&emsp;&emsp;&emsp;<img src="https://avatars.githubusercontent.com/u/95353195?v=4" width="10%">&emsp;&emsp;&emsp;<img src="https://avatars.githubusercontent.com/u/59108522?v=4" width ="10%">&emsp;&emsp;&emsp;<img src="https://avatars.githubusercontent.com/u/72496432?v=4" width="10%">  &emsp;  &emsp;&emsp;<img src="https://avatars.githubusercontent.com/u/106366894?v=4" width ="10%">
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://github.com/HydraPhyzer"><img src="https://avatars.githubusercontent.com/u/106366894?v=4?s=100" width="100px;" alt="Muhammad Zubair ⚡"/><br /><sub><b>Muhammad Zubair ⚡</b></sub></a><br /><a href="#content-HydraPhyzer" title="Content">🖋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 [Burhan Haroon⚡](https://github.com/burhanharoon)  &emsp;[Sudhanshu Kumar](https://github.com/AnonymousSudh) &emsp;&emsp;[Avez Qureshi](https://github.com/avezqureshi14)&emsp;&emsp;&emsp;&ensp;[Niraj Pradhan](https://github.com/nirajpdn)   &emsp;&emsp;&ensp;[Shubhamsahu19](https://github.com/Shubhamsahu19)&ensp;&nbsp; &emsp;[Muhammad Zubair ⚡](https://github.com/HydraPhyzer)
 
