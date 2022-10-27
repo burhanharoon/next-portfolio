@@ -5,7 +5,7 @@ const Footer = () => {
   const linkClassName = 'text-gray-500 hover:text-blue-500'
 
   return (
-    <footer className='flex items-center justify-center w-full bg-[#EFF6FF]'>
+    <footer className='flex mt-auto items-center justify-center w-full bg-[#EFF6FF]'>
       <div className='max-w-[1400px] flex flex-col w-full'>
         <div className='px-6 py-10'>
           <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 grid-cols-none gap-8 pt-6'>
