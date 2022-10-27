@@ -82,7 +82,12 @@ git push -u origin your_github_username
 8. Now open the forked repository on your GitHub. You will see a yellow box at the top telling you that some changes are pushed. You will also see a button called Compare & pull request. Click on it. (Note: if yellow box doesn't appear then wait for Half an hour, it will appear.)
 9. Now add a title, some description and you have opened a pull request in this repository💖.
 
-## CONTRIBUTORS:
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 
 &ensp;<img src="https://avatars.githubusercontent.com/u/89704304?v=4" width="10%"> &emsp; &emsp;&ensp;<img src="https://avatars.githubusercontent.com/u/64887608?v=4" width ="10%">&emsp;&emsp;&emsp;<img src="https://avatars.githubusercontent.com/u/95353195?v=4" width="10%">&emsp;&emsp;&emsp;<img src="https://avatars.githubusercontent.com/u/59108522?v=4" width ="10%">&emsp;&emsp;&emsp;<img src="https://avatars.githubusercontent.com/u/72496432?v=4" width="10%">  &emsp;  &emsp;&emsp;<img src="https://avatars.githubusercontent.com/u/106366894?v=4" width ="10%">
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -101,14 +106,8 @@ git push -u origin your_github_username
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-[Burhan Haroon⚡](https://github.com/burhanharoon)  &emsp;[Sudhanshu Kumar](https://github.com/AnonymousSudh) &emsp;&emsp;[Avez Qureshi](https://github.com/avezqureshi14)&emsp;&emsp;&emsp;&ensp;[Niraj Pradhan](https://github.com/nirajpdn)   &emsp;&emsp;&ensp;[Shubhamsahu19](https://github.com/Shubhamsahu19)&ensp;&nbsp; &emsp;[Muhammad Zubair ⚡](https://github.com/HydraPhyzer)
-
-<br />&ensp;<img src="https://avatars.githubusercontent.com/u/31427850?v=4" width="10%">&emsp;&emsp;&emsp;<img src="https://avatars.githubusercontent.com/u/55610818?v=4" width="10%">&emsp;&emsp;&emsp;<img src="https://avatars.githubusercontent.com/u/38914337?v=4" width = "10%">&emsp;&emsp;&emsp;<img src="https://avatars.githubusercontent.com/u/25644444?v=4" width="10%">
-
-&ensp;&ensp;&emsp;[Imgbot](https://github.com/ImgBotApp)&ensp;&emsp;&emsp;&emsp;[Sankalpa Fernando](https://github.com/SankalpaFernando)&emsp;&ensp;&emsp;[Yajana N Rao](https://github.com/YajanaRao)&emsp;&emsp;&emsp;&emsp;&emsp;[Ben C](https://github.com/Bwc9876)
 
 
-## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -119,9 +118,6 @@ git push -u origin your_github_username
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
 ----------------------------------------------------------
