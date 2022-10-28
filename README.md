@@ -1,7 +1,4 @@
 <p align="center">
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
     <a href="https://hacktoberfest.digitalocean.com/">
         <img src="https://raw.githubusercontent.com/keshavsingh4522/hacktoberfest2021/35fc6060c5ddead5792f29a2437fea160dbe9804/Assets/logo-hacktoberfest-full.f42e3b1.svg" width="30%">
     </a>
@@ -11,33 +8,22 @@
 
 # Note
 ```py
-'''
 Always try to make more then 4 pull requests.
 Let's assume you have made only 4 pull request to different projects.
 but one project is excluded from hackoctoberfest event.
 Then your pull request will not be counted and you will just have 3 valid pull requests.
 If this happens then you will not get any swags or t-shirt.
-'''
 ```
 
-### 🗣 Let's COntribute to Open Sourse 🔥.
+### 🗣 Let's Contribute to Open Sourse 🔥.
 📢 **This repository aims to help beginners 🤔 with their first successful Pull Request and Open Source Contribution.**
 
 <br>
 
-## ⏳ Steps to Follow : 
-
+## 📐 Steps to Follow : 
    - [X] **Register for [Hacktoberfest](https://hacktoberfest.digitalocean.com/) and get started to make your first PR.**
    - [X] **Make 4 valid PRs during the period of (1st - 31st) October to earn cool swags.**
 
- <br>
-
-## ❗ Contribution Rules :
-
-   * **You can Solve any Leetcode problem in any programming languages in the related Folder's,If language folder not exist then first create it and add your code in it but your program must be unique.**
-   * **The pull requests must contain commits made by yourself.**
-   * **The Commit message must contain Leetcode problem number**
-   * **Repeated codes will not be merged.**
  <br>
 
 ## 🌎 Steps to contribute:
@@ -82,43 +68,27 @@ git push -u origin your_github_username
 8. Now open the forked repository on your GitHub. You will see a yellow box at the top telling you that some changes are pushed. You will also see a button called Compare & pull request. Click on it. (Note: if yellow box doesn't appear then wait for Half an hour, it will appear.)
 9. Now add a title, some description and you have opened a pull request in this repository💖.
 
-## Contributors
+## Contributors 
+&nbsp;
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/All_Contributors-13-orange.svg?style=flat&logo=GITHUB)](contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+<a href="https://github.com/burhanharoon/next-portfolio/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=burhanharoon/next-portfolio" />
+</a>
 
-&ensp;<img src="https://avatars.githubusercontent.com/u/89704304?v=4" width="10%"> &emsp; &emsp;&ensp;<img src="https://avatars.githubusercontent.com/u/64887608?v=4" width ="10%">&emsp;&emsp;&emsp;<img src="https://avatars.githubusercontent.com/u/95353195?v=4" width="10%">&emsp;&emsp;&emsp;<img src="https://avatars.githubusercontent.com/u/59108522?v=4" width ="10%">&emsp;&emsp;&emsp;<img src="https://avatars.githubusercontent.com/u/72496432?v=4" width="10%">  &emsp;  &emsp;&emsp;<img src="https://avatars.githubusercontent.com/u/106366894?v=4" width ="10%">
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
+&nbsp;
+&nbsp;
+<hr/>
 <table>
   <tbody>
     <tr>
-      <td align="center"><a href="https://github.com/HydraPhyzer"><img src="https://avatars.githubusercontent.com/u/106366894?v=4?s=100" width="100px;" alt="Muhammad Zubair ⚡"/><br /><sub><b>Muhammad Zubair ⚡</b></sub></a><br /><a href="#content-HydraPhyzer" title="Content">🖋</a></td>
+      <td align="center"><a href="https://github.com/HydraPhyzer"><img src="https://avatars.githubusercontent.com/u/106366894?v=4?s=100" width="100px;" alt="Muhammad Zubair ⚡"/><br /><sub><b>Muhammad Zubair ⚡</b></sub></a><br /><a href="#content-HydraPhyzer" title="Content">✍</a></td>
     </tr>
   </tbody>
 </table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-
-
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-
 
 ----------------------------------------------------------
 
