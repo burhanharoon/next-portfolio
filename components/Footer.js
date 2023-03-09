@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import { DevToURL, GitHubURL, InstagramURL, LinkedInURL } from 'utils/constants'
 
 const Footer = () => {
   const linkClassName = 'text-gray-500 hover:text-blue-500'
@@ -18,7 +19,7 @@ const Footer = () => {
                 <a className={linkClassName}>Home</a>
               </Link>
               <a
-                href='https://dev.to/burhanharoon'
+                href={DevToURL}
                 target='_blank'
                 rel='noreferrer'
                 className={linkClassName}
@@ -26,7 +27,7 @@ const Footer = () => {
                 Blogs
               </a>
               <a
-                href='https://wa.me/+923164180039?text=Hello%2C%20World!'
+                href='https://wa.me/+923164180039?text=Hello%2C%20Burhan!'
                 target='_blank'
                 rel='noreferrer'
                 className={linkClassName}
@@ -39,7 +40,7 @@ const Footer = () => {
                 Social Platforms
               </p>
               <a
-                href='https://www.linkedin.com/in/burhandev'
+                href={LinkedInURL}
                 target='_blank'
                 rel='noreferrer'
                 className={linkClassName}
@@ -47,7 +48,7 @@ const Footer = () => {
                 Linkedin
               </a>
               <a
-                href='https://instagram.com/kya.bne.ga.burhan.tera?igshid=YmMyMTA2M2Y='
+                href={InstagramURL}
                 target='_blank'
                 rel='noreferrer'
                 className={linkClassName}
@@ -55,7 +56,7 @@ const Footer = () => {
                 Instagram
               </a>
               <a
-                href='https://github.com/burhanharoon'
+                href={GitHubURL}
                 target='_blank'
                 rel='noreferrer'
                 className={linkClassName}
@@ -65,20 +66,20 @@ const Footer = () => {
             </section>
             <section className='flex flex-col text-sm gap-2'>
               <p className='font-semibold text-gray-600 pb-2'>Contact Us</p>
-              <p className='text-gray-500'>Lahore, Pakistan </p>
               <p>
                 <a
-                  href='mailto:mirzaburhan0007@gmail.com'
+                  href='mailto:burhanharoon@outlook.com?Subject=Hello%20Burhan%20Haroon'
                   className={linkClassName}
                 >
-                  mirzaburhan0007@gmail.com
+                  burhanharoon@outlook.com
                 </a>
               </p>
+              <p className='text-gray-500'>Lahore, Pakistan </p>
             </section>
           </div>
         </div>
         <hr className='border-gray-300' />
-        <p className='text-sm px-6 py-5'>Copyright &copy; 2022 Burhan Haroon</p>
+        <p className='text-sm px-6 py-5'>Copyright &copy; 2023 Burhan Haroon</p>
       </div>
     </footer>
   )

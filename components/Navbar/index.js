@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 import Link from 'next/link'
 import HamburgerIcon from 'assets/icons/hamburger'
 import CrossIcon from 'assets/icons/cross'
@@ -8,13 +8,27 @@ const Navbar = () => {
   const [colorChange, setColorChange] = useState(false)
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  const changeNavbarColor = () =>
-    window.scrollY >= 80 ? setColorChange(true) : setColorChange(false)
+  const debounce = (func, wait) => {
+    let timeout
+    return function (...args) {
+      const context = this
+      clearTimeout(timeout)
+      timeout = setTimeout(() => func.apply(context, args), wait)
+    }
+  }
+
+  const debouncedChangeNavbarColor = useCallback(
+    debounce(() => {
+      setColorChange(window.scrollY >= 80)
+    }, 100),
+    []
+  )
 
   useEffect(() => {
-    window.addEventListener('scroll', changeNavbarColor)
-    return () => window.removeEventListener('scroll', changeNavbarColor)
-  }, [])
+    window.addEventListener('scroll', debouncedChangeNavbarColor)
+    return () =>
+      window.removeEventListener('scroll', debouncedChangeNavbarColor)
+  }, [debouncedChangeNavbarColor])
 
   return (
     <nav
@@ -57,7 +71,7 @@ const Navbar = () => {
               Blogs
             </a>
             <a
-              href='/'
+              href='https://wa.me/+923164180039?text=Hello%2C%20Burhan!'
               target='_blank'
               rel='noreferrer'
               className='hover:bg-blue-50 p-2 sm:p-0 rounded-md w-full text-center sm:w-auto'

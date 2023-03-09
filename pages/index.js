@@ -1,18 +1,17 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Navbar from 'components/Navbar/index'
 import SkillCard from 'components/SkillCard'
 import { skills } from 'utils/skills'
 import userImage from 'assets/images/user.jpg'
-import Footer from 'components/Footer'
 import Link from 'next/link'
+import { LinkedInURL } from 'utils/constants'
 
 const Home = () => (
   <>
     <Head>
       <title>Burhan Haroon | Software Engineer</title>
       <meta name='description' content='Burhan Haroon | Portfolio' />
-      <link rel='icon' href='/favicon.ico' />
+      <link rel='icon' href='/burhan.jpg' />
     </Head>
     <section className='text-darkBlue bg-[#EFF6FF] h-full min-h-[600px] p-4 pt-8 sm:p-12 flex flex-col gap-8 justify-center items-center'>
       <div className=' flex flex-col-reverse md:flex-row gap-12 md:gap-28 items-center max-w-[1369px]'>
@@ -21,21 +20,24 @@ const Home = () => (
             Hi, I'm Burhan Haroon - a Software Engineer.
           </h1>
           <p className='text-base sm:text-lg'>
-            I am a self taught computer programmer and a Final year Computer
-            Science student at UET Lahore. I wrote my first code at the age 12
-            in a programming language called GW-BASIC. I love to develop webs
-            and favorite tech stack is MERN. Other than that I am a community
-            builder and have a positive mindset towards growing and learning.
-            Lastly, I sometimes write tech articles @ dev.to 📝
+            As a self-taught computer programmer and Computer Science graduate
+            from UET Lahore, I've been passionate about coding since I wrote my
+            first program at the age of 12 in GW-BASIC. My preferred tech stack
+            is MERN and I love developing websites. Additionally, I enjoy
+            building communities and have a positive mindset towards growth and
+            learning. In my spare time, I also write tech articles on dev.to.
           </p>
           <div className='flex flex-col gap-2 md:flex-row'>
             <button className='btn btn-primary normal-case'>
-              <Link href='/Resume.pdf' download={true}>
+              <Link
+                href='/Burhan Haroon - Software Engineer.pdf'
+                download={true}
+              >
                 Download Resume
               </Link>
             </button>
             <a
-              href='https://www.linkedin.com/in/burhandev'
+              href={LinkedInURL}
               target='_blank'
               className='w-full'
               rel='noreferrer'
