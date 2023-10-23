@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Image from "next/image"
 import SkillCard from 'components/SkillCard'
 import { skills } from 'utils/skills'
 import userImage from 'assets/images/user.jpg'
@@ -48,16 +48,18 @@ const Home = () => (
             </a>
           </div>
         </div>
-        <div className='bg-black w-[60%] md:w-[35%] xl:w-[25%] rounded-full overflow-hidden'>
-          <Image
-            src={userImage}
-            width='100%'
-            height='100%'
-            layout='responsive'
-            objectFit='cover'
-            alt='Burhan Haroon'
-            className='rounded-full hover:scale-110 transition-all duration-500'
-          />
+        <div className='avatar w-[60%] md:w-[35%] xl:w-[25%] '>
+          <div className='bg-black rounded-full overflow-hidden'>
+            <Image
+              src={userImage}
+              priority={true}
+              alt='Burhan Haroon'
+              className='rounded-full hover:scale-110 transition-all duration-500'
+              sizes="100vw"
+              style={{
+                objectFit: "cover",
+              }} />
+          </div>
         </div>
       </div>
     </section>
