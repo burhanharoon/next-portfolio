@@ -16,7 +16,7 @@ const Footer = () => {
             <section className='flex flex-col text-sm gap-2'>
               <p className='font-semibold text-gray-600 pb-2'>Navigation</p>
               <Link href='/'>
-                <a className={linkClassName}>Home</a>
+                <div className={linkClassName}>Home</div>
               </Link>
               <a
                 href={DevToURL}
