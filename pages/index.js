@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import SkillCard from 'components/SkillCard'
 import { skills } from 'utils/skills'
 import userImage from 'assets/images/user.jpg'
