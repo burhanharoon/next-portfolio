@@ -48,19 +48,18 @@ const Home = () => (
             </a>
           </div>
         </div>
-        <div className='bg-black w-[60%] md:w-[35%] xl:w-[25%] rounded-full overflow-hidden'>
-          <Image
-            src={userImage}
-            width='100%'
-            height='100%'
-            alt='Burhan Haroon'
-            className='rounded-full hover:scale-110 transition-all duration-500'
-            sizes="100vw"
-            style={{
-              width: "100%",
-              height: "auto",
-              objectFit: "cover",
-            }} />
+        <div className='avatar w-[60%] md:w-[35%] xl:w-[25%] '>
+          <div className='bg-black rounded-full overflow-hidden'>
+            <Image
+              src={userImage}
+              priority={true}
+              alt='Burhan Haroon'
+              className='rounded-full hover:scale-110 transition-all duration-500'
+              sizes="100vw"
+              style={{
+                objectFit: "cover",
+              }} />
+          </div>
         </div>
       </div>
     </section>
