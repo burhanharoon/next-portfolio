@@ -17,6 +17,7 @@ export interface BlogPost {
   body: any[]; // Portable Text blocks
   date: string;
   tags: string[];
+  externalUrl: string | null;
 }
 
 export interface Skill {

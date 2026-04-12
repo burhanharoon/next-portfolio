@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://burhanharoon.dev/sitemap.xml
+Sitemap: https://burhanharoon.com/sitemap.xml

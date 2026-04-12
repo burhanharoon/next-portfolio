@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { SITE_URL } from "@/lib/constants";
 import "./globals.css";
 
 const inter = Inter({
@@ -12,6 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "Burhan Haroon — AI-First Full-Stack Developer",
   description:
     "Full-stack developer with 7+ years of experience. I use AI to ship faster, think bigger, and build smarter. Available for remote work worldwide.",
@@ -19,8 +21,14 @@ export const metadata: Metadata = {
     title: "Burhan Haroon — AI-First Full-Stack Developer",
     description:
       "Full-stack developer helping global teams ship faster with AI-enhanced workflows.",
-    url: "https://burhanharoon.dev",
+    url: SITE_URL,
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Burhan Haroon — AI-First Full-Stack Developer",
+    description:
+      "Full-stack developer helping global teams ship faster with AI-enhanced workflows.",
   },
 };
 

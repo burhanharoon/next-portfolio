@@ -1,3 +1,5 @@
+export const SITE_URL = "https://burhanharoon.com";
+
 export const SOCIAL_LINKS = {
   linkedin: "https://www.linkedin.com/in/burhanharoon",
   github: "https://github.com/burhanharoon",

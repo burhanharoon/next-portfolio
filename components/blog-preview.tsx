@@ -7,10 +7,10 @@ export async function BlogPreview() {
   const posts = await getBlogPosts();
 
   const displayPosts = posts.length > 0
-    ? posts.slice(0, 4).map((p) => ({ title: p.title, slug: p.slug, excerpt: p.excerpt, date: p.date, tags: p.tags }))
+    ? posts.slice(0, 4).map((p) => ({ title: p.title, slug: p.slug, excerpt: p.excerpt, date: p.date, tags: p.tags, externalUrl: p.externalUrl }))
     : [
-        { title: "Why should you use Tailwind CSS with React/Next JS?", slug: "tailwind-css-react-nextjs", excerpt: "A deep dive into why Tailwind CSS is the perfect companion for React and Next.js projects...", date: "2022-01-01", tags: ["Tailwind CSS"] },
-        { title: "How to generate /sitemap.xml route in Remix framework", slug: "sitemap-remix", excerpt: "Step-by-step guide to generating dynamic sitemaps in Remix for better SEO...", date: "2022-01-01", tags: ["Remix"] },
+        { title: "Why should you use Tailwind CSS with React/Next JS?", slug: "tailwind-css-react-nextjs", excerpt: "A deep dive into why Tailwind CSS is the perfect companion for React and Next.js projects...", date: "2022-01-01", tags: ["Tailwind CSS"], externalUrl: "https://dev.to/burhanharoon/why-should-you-use-tailwind-css-with-reactnext-js-3j3h" },
+        { title: "How to generate /sitemap.xml route in Remix framework", slug: "sitemap-remix", excerpt: "Step-by-step guide to generating dynamic sitemaps in Remix for better SEO...", date: "2022-01-01", tags: ["Remix"], externalUrl: "https://dev.to/burhanharoon/how-to-generate-sitemapxml-route-in-remix-framework-25dc" },
       ];
 
   return (

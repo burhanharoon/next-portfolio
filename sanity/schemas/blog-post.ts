@@ -44,6 +44,12 @@ export const blogPost = defineType({
       type: "array",
       of: [{ type: "string" }],
     }),
+    defineField({
+      name: "externalUrl",
+      title: "External URL",
+      type: "url",
+      description: "If set, the blog card links to this URL instead of an internal page (e.g., dev.to article)",
+    }),
   ],
   orderings: [
     { title: "Date Desc", name: "dateDesc", by: [{ field: "date", direction: "desc" }] },

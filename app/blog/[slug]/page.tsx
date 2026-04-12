@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getBlogPost, getBlogPosts } from "@/sanity/queries";
 import { PortableText } from "@portabletext/react";
 import { Badge } from "@/components/ui/badge";
+import { SITE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 
 interface Props {
@@ -18,7 +19,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const post = await getBlogPost(slug);
   if (!post) return {};
-  return { title: `${post.title} — Burhan Haroon`, description: post.excerpt };
+  return {
+    title: `${post.title} — Burhan Haroon`,
+    description: post.excerpt,
+    openGraph: {
+      url: `${SITE_URL}/blog/${slug}`,
+    },
+  };
 }
 
 export default async function BlogPostPage({ params }: Props) {
@@ -26,8 +33,23 @@ export default async function BlogPostPage({ params }: Props) {
   const post = await getBlogPost(slug);
   if (!post) notFound();
 
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: post.date,
+    url: `${SITE_URL}/blog/${slug}`,
+    author: {
+      "@type": "Person",
+      name: "Burhan Haroon",
+      url: SITE_URL,
+    },
+  };
+
   return (
     <article className="bg-bg-primary px-6 py-16 md:py-24">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
       <div className="mx-auto max-w-3xl">
         <Link href="/blog" className="text-xs font-bold text-text-secondary hover:text-text-primary">← ALL POSTS</Link>
         <div className="mt-8">

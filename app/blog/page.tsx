@@ -2,11 +2,15 @@ import Link from "next/link";
 import { getBlogPosts } from "@/sanity/queries";
 import { Badge } from "@/components/ui/badge";
 import { BlogCards } from "@/components/blog-cards";
+import { SITE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Blog — Burhan Haroon",
   description: "Articles about web development, AI, and building for the modern web.",
+  openGraph: {
+    url: `${SITE_URL}/blog`,
+  },
 };
 
 export default async function BlogPage() {

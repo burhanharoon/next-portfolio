@@ -28,7 +28,7 @@ export async function getProjects(): Promise<Project[]> {
 export async function getBlogPosts(): Promise<BlogPost[]> {
   return safeFetch(
     `*[_type == "blogPost"] | order(date desc) {
-      _id, title, "slug": slug.current, excerpt, body, date, tags
+      _id, title, "slug": slug.current, excerpt, body, date, tags, externalUrl
     }`
   );
 }
@@ -36,7 +36,7 @@ export async function getBlogPosts(): Promise<BlogPost[]> {
 export async function getBlogPost(slug: string): Promise<BlogPost | null> {
   return safeFetch(
     `*[_type == "blogPost" && slug.current == $slug][0] {
-      _id, title, "slug": slug.current, excerpt, body, date, tags
+      _id, title, "slug": slug.current, excerpt, body, date, tags, externalUrl
     }`,
     { slug },
     null
