@@ -8,6 +8,8 @@
 
 **Tech Stack:** Next.js 16, React 19, TypeScript, Tailwind CSS v4, Framer Motion 12, Sanity 5, next-sanity 12, @portabletext/react 6, Vercel
 
+Never mention claude in any commits
+
 ---
 
 ## File Structure

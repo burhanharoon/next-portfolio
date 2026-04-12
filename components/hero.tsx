@@ -72,39 +72,41 @@ export function Hero() {
         </div>
 
         {/* Right column */}
-        <div className="flex-[2] relative w-full md:w-auto">
+        <div className="flex-[2] w-full md:w-auto">
           <FadeIn direction="right">
-            <div className="border-brutal bg-white shadow-brutal-lg p-5 w-full max-w-[280px] mx-auto md:mx-0">
-              <div className="relative w-full aspect-[4/5] border-brutal-thin overflow-hidden bg-bg-secondary">
+            <div className="relative border-brutal bg-white shadow-brutal-lg w-full max-w-[340px] mx-auto md:mx-0 overflow-visible">
+              <div className="relative w-full aspect-square overflow-hidden bg-bg-secondary">
                 <Image
-                  src="/images/burhan.jpg"
+                  src="/images/burhanharoon.jpeg"
                   alt="Burhan Haroon"
                   fill
                   className="object-cover"
                   priority
                 />
               </div>
-              <p className="mt-3 text-sm font-black">Burhan Haroon</p>
-              <p className="text-xs text-text-muted">
-                Based in Pakistan · Working globally
-              </p>
+              <div className="px-5 py-4">
+                <p className="text-sm font-black">Burhan Haroon</p>
+                <p className="text-xs text-text-muted">
+                  Based in Pakistan · Working globally
+                </p>
+              </div>
+
+              {/* Floating stat badges */}
+              <SpringIn delay={0.5} className="absolute top-4 -left-6">
+                <div className="bg-primary border-brutal shadow-brutal-sm px-4 py-2.5">
+                  <div className="text-2xl font-black">7+</div>
+                  <div className="text-[9px] font-bold tracking-wider">YEARS EXP</div>
+                </div>
+              </SpringIn>
+
+              <SpringIn delay={0.7} className="absolute bottom-16 -right-6">
+                <div className="bg-secondary text-white border-brutal shadow-brutal-sm px-4 py-2.5">
+                  <div className="text-2xl font-black">10+</div>
+                  <div className="text-[9px] font-bold tracking-wider">PROJECTS</div>
+                </div>
+              </SpringIn>
             </div>
           </FadeIn>
-
-          {/* Floating stat badges */}
-          <SpringIn delay={0.5} className="absolute -bottom-4 -left-4 md:left-auto md:-left-8">
-            <div className="bg-primary border-brutal shadow-brutal-sm px-4 py-2.5">
-              <div className="text-2xl font-black">7+</div>
-              <div className="text-[9px] font-bold tracking-wider">YEARS EXP</div>
-            </div>
-          </SpringIn>
-
-          <SpringIn delay={0.7} className="absolute -bottom-4 right-4 md:right-8">
-            <div className="bg-secondary text-white border-brutal shadow-brutal-sm px-4 py-2.5">
-              <div className="text-2xl font-black">10+</div>
-              <div className="text-[9px] font-bold tracking-wider">PROJECTS</div>
-            </div>
-          </SpringIn>
         </div>
       </div>
     </section>
