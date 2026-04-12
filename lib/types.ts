@@ -14,7 +14,7 @@ export interface BlogPost {
   title: string;
   slug: string;
   excerpt: string;
-  body: any[];
+  body: any[]; // Portable Text blocks
   date: string;
   tags: string[];
 }
@@ -30,7 +30,7 @@ export interface Skill {
 export interface About {
   _id: string;
   headline: string;
-  body: any[];
+  body: any[]; // Portable Text blocks
   stats: { label: string; value: string }[];
 }
 

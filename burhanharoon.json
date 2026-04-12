@@ -1,0 +1,1915 @@
+{
+    "code": 200,
+    "message": "",
+    "data": {
+        "personal_info": {
+            "phone_number": "+92 316-4180039",
+            "phone_country_code": "pk",
+            "first_name": "Burhan",
+            "last_name": "Haroon",
+            "full_name": "Burhan Haroon",
+            "resume": "1677594531063_3077530_burhanharoon.pdf",
+            "avatar": "1676395488012_IMG_20220511_175724 (1).jpg",
+            "email": "burhanharoon@outlook.com",
+            "country_citizenship_id": null,
+            "country_id": 167,
+            "role_type_id": 4,
+            "verbal_communication": 0,
+            "years_of_experience": 7,
+            "years_of_working_remotely": 2,
+            "expected_salary_amount": null,
+            "expected_salary_amount_monthly": null,
+            "expected_salary_amount_yearly": 4000000,
+            "salary_local_currency": "PKR",
+            "time_from": "09:00:00",
+            "linkedin_url": "https://www.linkedin.com/in/burhanharoon",
+            "github_url": "http://github.com/burhanharoon",
+            "summary": "7+ years of experience in developing &amp; maintaining web applications. Experienced in front-end, back-end, system administration, and Test Driven Development (TDD). Proficient in a wide range of languages &amp; technologies including JavaScript/Typescript, Node.js, React, Next.js, Nest.js, Express.js, HTML/CSS &amp; SQL/NoSQL databases. Contributed to the training of an advanced LLM for a top AI company. Led the development process for 10+ projects from conception to deployment. Worked individually and in teams as a leader, whilst working with large groups and startups.",
+            "code": "PK",
+            "availability_status_id": null,
+            "current_availability_status": null,
+            "starts_in_weeks": null,
+            "gender": null,
+            "freelance_work_experience": 1,
+            "freelance_work_experience_years": 2,
+            "city_of_residence": "Lahrore",
+            "resume_upload_date": "2023-02-14 14:12:00"
+        },
+        "projects_info": [],
+        "education_info": [
+            {
+                "id": 31565626,
+                "developer_id": 3077530,
+                "level": "Bachelors (or equivalent)",
+                "degree": "Bachelor of Computer Science",
+                "college": "University of Engineering and Technology",
+                "start_year": 2016,
+                "start_month": "August",
+                "end_year": 2020,
+                "end_month": "March",
+                "country_id": null,
+                "cgpa": 3.4,
+                "cgpa_scale": 4
+            }
+        ],
+        "certification_info": [
+            {
+                "id": 96707,
+                "developer_id": 3077530,
+                "certification_id": 119000,
+                "year": "2022",
+                "created_date": "2023-02-15 18:25:37",
+                "updated_date": "2023-02-15 18:25:37",
+                "name": "Runners Up in IEEE Coding Camp '22"
+            }
+        ],
+        "skills_info": [
+            {
+                "skill_id": 107,
+                "id": 22159117,
+                "developer_id": 3077530,
+                "score": 6,
+                "skill_level": 4,
+                "preferred": 0,
+                "is_ready_to_match": 1,
+                "not_matchable": 0,
+                "skill_name": "HTML/CSS",
+                "group": null
+            },
+            {
+                "skill_id": 121,
+                "id": 22159119,
+                "developer_id": 3077530,
+                "score": 5,
+                "skill_level": 4,
+                "preferred": 0,
+                "is_ready_to_match": 1,
+                "not_matchable": 0,
+                "skill_name": "Redux",
+                "group": 3
+            },
+            {
+                "skill_id": 258,
+                "id": 22159105,
+                "developer_id": 3077530,
+                "score": 5,
+                "skill_level": 4,
+                "preferred": 0,
+                "is_ready_to_match": 1,
+                "not_matchable": 0,
+                "skill_name": "Git",
+                "group": null
+            },
+            {
+                "skill_id": 2031,
+                "id": 22159106,
+                "developer_id": 3077530,
+                "score": 5,
+                "skill_level": 4,
+                "preferred": 0,
+                "is_ready_to_match": 1,
+                "not_matchable": 0,
+                "skill_name": "React",
+                "group": 1
+            },
+            {
+                "skill_id": 2031,
+                "id": 22159106,
+                "developer_id": 3077530,
+                "score": 5,
+                "skill_level": 4,
+                "preferred": 0,
+                "is_ready_to_match": 1,
+                "not_matchable": 0,
+                "skill_name": "React",
+                "group": 2
+            },
+            {
+                "skill_id": 2031,
+                "id": 22159106,
+                "developer_id": 3077530,
+                "score": 5,
+                "skill_level": 4,
+                "preferred": 0,
+                "is_ready_to_match": 1,
+                "not_matchable": 0,
+                "skill_name": "React",
+                "group": 3
+            },
+            {
+                "skill_id": 2031,
+                "id": 22159106,
+                "developer_id": 3077530,
+                "score": 5,
+                "skill_level": 4,
+                "preferred": 0,
+                "is_ready_to_match": 1,
+                "not_matchable": 0,
+                "skill_name": "React",
+                "group": 4
+            },
+            {
+                "skill_id": 73,
+                "id": 36126290,
+                "developer_id": 3077530,
+                "score": 5,
+                "skill_level": 4,
+                "preferred": 0,
+                "is_ready_to_match": 0,
+                "not_matchable": 0,
+                "skill_name": "GitHub",
+                "group": null
+            },
+            {
+                "skill_id": 93,
+                "id": 22159118,
+                "developer_id": 3077530,
+                "score": 5,
+                "skill_level": 4,
+                "preferred": 0,
+                "is_ready_to_match": 1,
+                "not_matchable": 0,
+                "skill_name": "JavaScript",
+                "group": null
+            },
+            {
+                "skill_id": 160,
+                "id": 22159230,
+                "developer_id": 3077530,
+                "score": 5,
+                "skill_level": 4,
+                "preferred": 0,
+                "is_ready_to_match": 1,
+                "not_matchable": 0,
+                "skill_name": "React Native",
+                "group": 1
+            },
+            {
+                "skill_id": 282,
+                "id": 22159108,
+                "developer_id": 3077530,
+                "score": 4,
+                "skill_level": 4,
+                "preferred": 0,
+                "is_ready_to_match": 1,
+                "not_matchable": 0,
+                "skill_name": "Express.js",
+                "group": null
+            },
+            {
+                "skill_id": 2101,
+                "id": 22167430,
+                "developer_id": 3077530,
+                "score": 4,
+                "skill_level": 4,
+                "preferred": 0,
+                "is_ready_to_match": 1,
+                "not_matchable": 0,
+                "skill_name": "React Hooks",
+                "group": null
+            },
+            {
+                "skill_id": 387,
+                "id": 22159109,
+                "developer_id": 3077530,
+                "score": 5,
+                "skill_level": 3,
+                "preferred": 0,
+                "is_ready_to_match": 1,
+                "not_matchable": 0,
+                "skill_name": "HTML",
+                "group": null
+            },
+            {
+                "skill_id": 158,
+                "id": 22159113,
+                "developer_id": 3077530,
+                "score": 5,
+                "skill_level": 3,
+                "preferred": 0,
+                "is_ready_to_match": 1,
+                "not_matchable": 0,
+                "skill_name": "Typescript",
+                "group": 2
+            },
+            {
+                "skill_id": 406,
+                "id": 22167385,
+                "developer_id": 3077530,
+                "score": 5,
+                "skill_level": 3,
+                "preferred": 0,
+                "is_ready_to_match": 1,
+                "not_matchable": 0,
+                "skill_name": "Next.js",
+                "group": null
+            },
+            {
+                "skill_id": 120,
+                "id": 22159116,
+                "developer_id": 3077530,
+                "score": 4,
+                "skill_level": 3,
+                "preferred": 0,
+                "is_ready_to_match": 1,
+                "not_matchable": 0,
+                "skill_name": "Node.js",
+                "group": 4
+            },
+            {
+                "skill_id": 120,
+                "id": 22159116,
+                "developer_id": 3077530,
+                "score": 4,
+                "skill_level": 3,
+                "preferred": 0,
+                "is_ready_to_match": 1,
+                "not_matchable": 0,
+                "skill_name": "Node.js",
+                "group": 1
+            },
+            {
+                "skill_id": 2109,
+                "id": 22166280,
+                "developer_id": 3077530,
+                "score": 4,
+                "skill_level": 3,
+                "preferred": 0,
+                "is_ready_to_match": 0,
+                "not_matchable": 0,
+                "skill_name": "Tailwind CSS",
+                "group": null
+            },
+            {
+                "skill_id": 159,
+                "id": 22159104,
+                "developer_id": 3077530,
+                "score": 3,
+                "skill_level": 3,
+                "preferred": 0,
+                "is_ready_to_match": 1,
+                "not_matchable": 0,
+                "skill_name": "GraphQL",
+                "group": 1
+            },
+            {
+                "skill_id": 433,
+                "id": 22159115,
+                "developer_id": 3077530,
+                "score": 3,
+                "skill_level": 3,
+                "preferred": 0,
+                "is_ready_to_match": 0,
+                "not_matchable": 0,
+                "skill_name": "AWS",
+                "group": null
+            },
+            {
+                "skill_id": 116,
+                "id": 22159112,
+                "developer_id": 3077530,
+                "score": 3,
+                "skill_level": 3,
+                "preferred": 0,
+                "is_ready_to_match": 0,
+                "not_matchable": 0,
+                "skill_name": "MongoDB",
+                "group": null
+            },
+            {
+                "skill_id": 1314,
+                "id": 36240588,
+                "developer_id": 3077530,
+                "score": 2,
+                "skill_level": 3,
+                "preferred": 0,
+                "is_ready_to_match": 0,
+                "not_matchable": 0,
+                "skill_name": "Cypress",
+                "group": null
+            },
+            {
+                "skill_id": 63,
+                "id": 36240611,
+                "developer_id": 3077530,
+                "score": 2,
+                "skill_level": 3,
+                "preferred": 0,
+                "is_ready_to_match": 0,
+                "not_matchable": 0,
+                "skill_name": "CI/CD",
+                "group": null
+            },
+            {
+                "skill_id": 2167,
+                "id": 36241312,
+                "developer_id": 3077530,
+                "score": 2,
+                "skill_level": 3,
+                "preferred": 0,
+                "is_ready_to_match": 0,
+                "not_matchable": 0,
+                "skill_name": "Playwright",
+                "group": null
+            },
+            {
+                "skill_id": 2161,
+                "id": 36084079,
+                "developer_id": 3077530,
+                "score": 1,
+                "skill_level": 3,
+                "preferred": 0,
+                "is_ready_to_match": 0,
+                "not_matchable": 0,
+                "skill_name": "LLM",
+                "group": null
+            },
+            {
+                "skill_id": 602,
+                "id": 22591507,
+                "developer_id": 3077530,
+                "score": 4,
+                "skill_level": 2,
+                "preferred": 0,
+                "is_ready_to_match": 0,
+                "not_matchable": 0,
+                "skill_name": "Material UI",
+                "group": null
+            },
+            {
+                "skill_id": 114,
+                "id": 22167078,
+                "developer_id": 3077530,
+                "score": 3,
+                "skill_level": 2,
+                "preferred": 0,
+                "is_ready_to_match": 0,
+                "not_matchable": 0,
+                "skill_name": "SQL",
+                "group": null
+            },
+            {
+                "skill_id": 20,
+                "id": 36084078,
+                "developer_id": 3077530,
+                "score": 3,
+                "skill_level": 2,
+                "preferred": 0,
+                "is_ready_to_match": 1,
+                "not_matchable": 0,
+                "skill_name": "Python",
+                "group": 1
+            },
+            {
+                "skill_id": 86,
+                "id": 22159111,
+                "developer_id": 3077530,
+                "score": 3,
+                "skill_level": 2,
+                "preferred": 0,
+                "is_ready_to_match": 0,
+                "not_matchable": 0,
+                "skill_name": "PostgreSQL",
+                "group": null
+            },
+            {
+                "skill_id": 2100,
+                "id": 33469841,
+                "developer_id": 3077530,
+                "score": 1,
+                "skill_level": 2,
+                "preferred": 0,
+                "is_ready_to_match": 0,
+                "not_matchable": 0,
+                "skill_name": "WebRTC",
+                "group": null
+            },
+            {
+                "skill_id": 411,
+                "id": 36084077,
+                "developer_id": 3077530,
+                "score": 1,
+                "skill_level": 1,
+                "preferred": 0,
+                "is_ready_to_match": 0,
+                "not_matchable": 0,
+                "skill_name": "Data Science",
+                "group": null
+            },
+            {
+                "skill_id": 1092,
+                "id": 125266196,
+                "developer_id": 3077530,
+                "score": 1,
+                "skill_level": null,
+                "preferred": 0,
+                "is_ready_to_match": 0,
+                "not_matchable": 0,
+                "skill_name": "Optimization",
+                "group": null
+            }
+        ],
+        "publication_info": [
+            {
+                "id": 21718,
+                "developer_id": 3077530,
+                "title": "Why should you use Tailwind CSS with React/Next JS?",
+                "year": 2022,
+                "link": "https://dev.to/burhanharoon/why-should-you-use-tailwind-css-with-reactnext-js-3j3h",
+                "no_of_citations": 0
+            },
+            {
+                "id": 21719,
+                "developer_id": 3077530,
+                "title": "How to generate /sitemap.xml route in Remix framework",
+                "year": 2022,
+                "link": "https://dev.to/burhanharoon/how-to-generate-sitemapxml-route-in-remix-framework-25dc",
+                "no_of_citations": 0
+            }
+        ],
+        "experience_info": [
+            {
+                "id": 6624012,
+                "developer_id": 3077530,
+                "position": "Web Developer",
+                "company": "Turing ",
+                "start_year": 2024,
+                "start_month": "March",
+                "end_year": 2024,
+                "end_month": "May",
+                "details": null,
+                "url": "",
+                "contribution": null,
+                "outcome": null,
+                "created_date": "2024-05-03 09:33:47",
+                "updated_date": "2024-05-03 09:33:47",
+                "employment_type": "Contract",
+                "skills": [],
+                "projects": [
+                    {
+                        "id": 3426222,
+                        "developer_id": 3077530,
+                        "project_name": "AI Data Trainer",
+                        "start_year": 2024,
+                        "start_month": "March",
+                        "end_year": 2024,
+                        "end_month": "May",
+                        "details": "- Collaborated with a leading AI organization to enhance the performance of their large language models (LLMs) through programmatic training.\n- Played a key role in analyzing user queries to ascertain their intent, subsequently evaluating various LLM responses to determine the most accurate and relevant ones. Also responsible for crafting exemplary responses to optimize LLM output, followed by training the model on these refined data inputs.\n- Engaged in a diverse set of technologies including React, Node.js, JavaScript/TypeScript, HTML/CSS, as well as Python and Data Science to support and improve the functionality of AI models.",
+                        "url": "",
+                        "outcome": "The project significantly improved the accuracy and responsiveness of the large language model. Through iterative training and optimization, the model demonstrated an enhanced understanding of user queries and increased precision in generating relevant responses. This led to a more intuitive and effective user experience.\r\n",
+                        "contribution": null,
+                        "experience_id": 6624012,
+                        "created_date": "2024-05-03 09:47:43",
+                        "updated_date": "2024-05-03 09:49:11",
+                        "skills": [
+                            {
+                                "id": 119976503,
+                                "project_id": 3426222,
+                                "skill_id": 93,
+                                "created_date": "2026-04-05 18:30:23",
+                                "updated_date": "2026-04-05 18:30:23",
+                                "skill_name": "JavaScript"
+                            },
+                            {
+                                "id": 119976504,
+                                "project_id": 3426222,
+                                "skill_id": 20,
+                                "created_date": "2026-04-05 18:30:23",
+                                "updated_date": "2026-04-05 18:30:23",
+                                "skill_name": "Python"
+                            },
+                            {
+                                "id": 119976505,
+                                "project_id": 3426222,
+                                "skill_id": 2161,
+                                "created_date": "2026-04-05 18:30:23",
+                                "updated_date": "2026-04-05 18:30:23",
+                                "skill_name": "LLM"
+                            },
+                            {
+                                "id": 119976506,
+                                "project_id": 3426222,
+                                "skill_id": 2031,
+                                "created_date": "2026-04-05 18:30:23",
+                                "updated_date": "2026-04-05 18:30:23",
+                                "skill_name": "React"
+                            },
+                            {
+                                "id": 119976507,
+                                "project_id": 3426222,
+                                "skill_id": 120,
+                                "created_date": "2026-04-05 18:30:23",
+                                "updated_date": "2026-04-05 18:30:23",
+                                "skill_name": "Node.js"
+                            },
+                            {
+                                "id": 119976508,
+                                "project_id": 3426222,
+                                "skill_id": 158,
+                                "created_date": "2026-04-05 18:30:23",
+                                "updated_date": "2026-04-05 18:30:23",
+                                "skill_name": "Typescript"
+                            },
+                            {
+                                "id": 119976509,
+                                "project_id": 3426222,
+                                "skill_id": 107,
+                                "created_date": "2026-04-05 18:30:23",
+                                "updated_date": "2026-04-05 18:30:23",
+                                "skill_name": "HTML/CSS"
+                            },
+                            {
+                                "id": 119976510,
+                                "project_id": 3426222,
+                                "skill_id": 406,
+                                "created_date": "2026-04-05 18:30:23",
+                                "updated_date": "2026-04-05 18:30:23",
+                                "skill_name": "Next.js"
+                            },
+                            {
+                                "id": 119976511,
+                                "project_id": 3426222,
+                                "skill_id": 411,
+                                "created_date": "2026-04-05 18:30:23",
+                                "updated_date": "2026-04-05 18:30:23",
+                                "skill_name": "Data Science"
+                            },
+                            {
+                                "id": 119976512,
+                                "project_id": 3426222,
+                                "skill_id": 160,
+                                "created_date": "2026-04-05 18:30:23",
+                                "updated_date": "2026-04-05 18:30:23",
+                                "skill_name": "React Native"
+                            },
+                            {
+                                "id": 119976513,
+                                "project_id": 3426222,
+                                "skill_id": 1092,
+                                "created_date": "2026-04-05 18:30:23",
+                                "updated_date": "2026-04-05 18:30:23",
+                                "skill_name": "Optimization"
+                            }
+                        ],
+                        "files": []
+                    }
+                ]
+            },
+            {
+                "id": 4148230,
+                "developer_id": 3077530,
+                "position": "Full-Stack Developer",
+                "company": "Megaverse IT",
+                "start_year": 2022,
+                "start_month": "June",
+                "end_year": 2022,
+                "end_month": "December",
+                "details": "",
+                "url": null,
+                "contribution": null,
+                "outcome": null,
+                "created_date": "2023-02-14 14:12:03",
+                "updated_date": "2023-03-14 14:40:42",
+                "employment_type": "Full Time",
+                "skills": [
+                    {
+                        "id": 3691980,
+                        "experience_id": 4148230,
+                        "skill_id": 120,
+                        "created_date": "2023-02-14 14:12:03",
+                        "updated_date": "2023-02-14 14:12:03",
+                        "skill_name": "Node.js"
+                    },
+                    {
+                        "id": 3691978,
+                        "experience_id": 4148230,
+                        "skill_id": 159,
+                        "created_date": "2023-02-14 14:12:03",
+                        "updated_date": "2023-02-14 14:12:03",
+                        "skill_name": "GraphQL"
+                    },
+                    {
+                        "id": 3691977,
+                        "experience_id": 4148230,
+                        "skill_id": 282,
+                        "created_date": "2023-02-14 14:12:03",
+                        "updated_date": "2023-02-14 14:12:03",
+                        "skill_name": "Express.js"
+                    },
+                    {
+                        "id": 3691979,
+                        "experience_id": 4148230,
+                        "skill_id": 406,
+                        "created_date": "2023-02-14 14:12:03",
+                        "updated_date": "2023-02-14 14:12:03",
+                        "skill_name": "Next.js"
+                    },
+                    {
+                        "id": 3691981,
+                        "experience_id": 4148230,
+                        "skill_id": 2031,
+                        "created_date": "2023-02-14 14:12:03",
+                        "updated_date": "2023-02-14 14:12:03",
+                        "skill_name": "React"
+                    }
+                ],
+                "projects": [
+                    {
+                        "id": 3111115,
+                        "developer_id": 3077530,
+                        "project_name": "Aires - Property Booking Web App",
+                        "start_year": 2022,
+                        "start_month": "June",
+                        "end_year": 2022,
+                        "end_month": "August",
+                        "details": "• Contributed to the development of a property booking website catering to users, brokers, buyers, and sellers for managing property transactions.\n• Utilized React as the primary frontend framework, ensuring fast and efficient development.\n• Implemented various features including payment options, commission management, and a user-friendly interface using Tailwind CSS for seamless property browsing.\n• Integrated Cypress for end-to-end automated testing to ensure all functionalities met the highest quality standards\n• Employed a technology stack comprising HTML/CSS, Redux, React, React Hooks, React Native, GitHub, Express.js, Typescript, Next.js, Node.js, CSS, Tailwind CSS, MongoDB, and HTML Template engines for legacy code logic.",
+                        "url": null,
+                        "outcome": "Overall, Aires is a comprehensive property booking platform that streamlines the property buying and selling process. Its intuitive design and efficient features make it an ideal solution for anyone looking to manage their properties or book a property quickly and easily.\r\n",
+                        "contribution": null,
+                        "experience_id": 4148230,
+                        "created_date": "2023-02-14 17:41:46",
+                        "updated_date": "2024-05-13 18:24:30",
+                        "skills": [
+                            {
+                                "id": 97155100,
+                                "project_id": 3111115,
+                                "skill_id": 73,
+                                "created_date": "2024-05-13 18:24:30",
+                                "updated_date": "2024-05-13 18:24:30",
+                                "skill_name": "GitHub"
+                            },
+                            {
+                                "id": 97155101,
+                                "project_id": 3111115,
+                                "skill_id": 121,
+                                "created_date": "2024-05-13 18:24:30",
+                                "updated_date": "2024-05-13 18:24:30",
+                                "skill_name": "Redux"
+                            },
+                            {
+                                "id": 97155102,
+                                "project_id": 3111115,
+                                "skill_id": 282,
+                                "created_date": "2024-05-13 18:24:30",
+                                "updated_date": "2024-05-13 18:24:30",
+                                "skill_name": "Express.js"
+                            },
+                            {
+                                "id": 97155103,
+                                "project_id": 3111115,
+                                "skill_id": 2031,
+                                "created_date": "2024-05-13 18:24:30",
+                                "updated_date": "2024-05-13 18:24:30",
+                                "skill_name": "React"
+                            },
+                            {
+                                "id": 97155104,
+                                "project_id": 3111115,
+                                "skill_id": 2101,
+                                "created_date": "2024-05-13 18:24:30",
+                                "updated_date": "2024-05-13 18:24:30",
+                                "skill_name": "React Hooks"
+                            },
+                            {
+                                "id": 97155105,
+                                "project_id": 3111115,
+                                "skill_id": 160,
+                                "created_date": "2024-05-13 18:24:30",
+                                "updated_date": "2024-05-13 18:24:30",
+                                "skill_name": "React Native"
+                            },
+                            {
+                                "id": 97155106,
+                                "project_id": 3111115,
+                                "skill_id": 158,
+                                "created_date": "2024-05-13 18:24:30",
+                                "updated_date": "2024-05-13 18:24:30",
+                                "skill_name": "Typescript"
+                            },
+                            {
+                                "id": 97155107,
+                                "project_id": 3111115,
+                                "skill_id": 406,
+                                "created_date": "2024-05-13 18:24:30",
+                                "updated_date": "2024-05-13 18:24:30",
+                                "skill_name": "Next.js"
+                            },
+                            {
+                                "id": 97155108,
+                                "project_id": 3111115,
+                                "skill_id": 120,
+                                "created_date": "2024-05-13 18:24:30",
+                                "updated_date": "2024-05-13 18:24:30",
+                                "skill_name": "Node.js"
+                            },
+                            {
+                                "id": 97155109,
+                                "project_id": 3111115,
+                                "skill_id": 107,
+                                "created_date": "2024-05-13 18:24:30",
+                                "updated_date": "2024-05-13 18:24:30",
+                                "skill_name": "HTML/CSS"
+                            },
+                            {
+                                "id": 97155110,
+                                "project_id": 3111115,
+                                "skill_id": 2109,
+                                "created_date": "2024-05-13 18:24:30",
+                                "updated_date": "2024-05-13 18:24:30",
+                                "skill_name": "Tailwind CSS"
+                            },
+                            {
+                                "id": 97155111,
+                                "project_id": 3111115,
+                                "skill_id": 1314,
+                                "created_date": "2024-05-13 18:24:30",
+                                "updated_date": "2024-05-13 18:24:30",
+                                "skill_name": "Cypress"
+                            },
+                            {
+                                "id": 97155112,
+                                "project_id": 3111115,
+                                "skill_id": 116,
+                                "created_date": "2024-05-13 18:24:30",
+                                "updated_date": "2024-05-13 18:24:30",
+                                "skill_name": "MongoDB"
+                            }
+                        ],
+                        "files": []
+                    },
+                    {
+                        "id": 3155160,
+                        "developer_id": 3077530,
+                        "project_name": "Festful",
+                        "start_year": 2022,
+                        "start_month": "May",
+                        "end_year": 2022,
+                        "end_month": "October",
+                        "details": "• Architected the structure and database design for the Event Management App.\r\n• Implemented features for planning, hiring, and managing events within the application.\r\n• Integrated sharing functionality to facilitate users in sharing their events.\r\n• Served as a Full-Stack JavaScript Developer for the entire project.\r\n• Developed the app from scratch, handling both frontend and backend components.\r\n• Used WebRTC, WebScrapping, React, Typescript, GCP, Git etc.",
+                        "url": "https://festfulweb.netlify.app/",
+                        "outcome": "\r\nA complete and innovative solution to booking events and hiring freelancers on the go. Completed this app using React Native and Node.js, Express.js, and Postgres.\r\n",
+                        "contribution": null,
+                        "experience_id": 4148230,
+                        "created_date": "2023-03-31 22:23:14",
+                        "updated_date": "2024-01-16 21:29:37",
+                        "skills": [
+                            {
+                                "id": 89828213,
+                                "project_id": 3155160,
+                                "skill_id": 93,
+                                "created_date": "2024-01-16 21:29:37",
+                                "updated_date": "2024-01-16 21:29:37",
+                                "skill_name": "JavaScript"
+                            },
+                            {
+                                "id": 89828214,
+                                "project_id": 3155160,
+                                "skill_id": 160,
+                                "created_date": "2024-01-16 21:29:37",
+                                "updated_date": "2024-01-16 21:29:37",
+                                "skill_name": "React Native"
+                            },
+                            {
+                                "id": 89828215,
+                                "project_id": 3155160,
+                                "skill_id": 120,
+                                "created_date": "2024-01-16 21:29:37",
+                                "updated_date": "2024-01-16 21:29:37",
+                                "skill_name": "Node.js"
+                            },
+                            {
+                                "id": 89828216,
+                                "project_id": 3155160,
+                                "skill_id": 282,
+                                "created_date": "2024-01-16 21:29:37",
+                                "updated_date": "2024-01-16 21:29:37",
+                                "skill_name": "Express.js"
+                            },
+                            {
+                                "id": 89828217,
+                                "project_id": 3155160,
+                                "skill_id": 158,
+                                "created_date": "2024-01-16 21:29:37",
+                                "updated_date": "2024-01-16 21:29:37",
+                                "skill_name": "Typescript"
+                            },
+                            {
+                                "id": 89828218,
+                                "project_id": 3155160,
+                                "skill_id": 2096,
+                                "created_date": "2024-01-16 21:29:37",
+                                "updated_date": "2024-01-16 21:29:37",
+                                "skill_name": "Go"
+                            },
+                            {
+                                "id": 89828219,
+                                "project_id": 3155160,
+                                "skill_id": 2031,
+                                "created_date": "2024-01-16 21:29:37",
+                                "updated_date": "2024-01-16 21:29:37",
+                                "skill_name": "React"
+                            },
+                            {
+                                "id": 89828220,
+                                "project_id": 3155160,
+                                "skill_id": 2100,
+                                "created_date": "2024-01-16 21:29:37",
+                                "updated_date": "2024-01-16 21:29:37",
+                                "skill_name": "WebRTC"
+                            },
+                            {
+                                "id": 89828221,
+                                "project_id": 3155160,
+                                "skill_id": 70,
+                                "created_date": "2024-01-16 21:29:37",
+                                "updated_date": "2024-01-16 21:29:37",
+                                "skill_name": "GCP"
+                            },
+                            {
+                                "id": 89828222,
+                                "project_id": 3155160,
+                                "skill_id": 258,
+                                "created_date": "2024-01-16 21:29:37",
+                                "updated_date": "2024-01-16 21:29:37",
+                                "skill_name": "Git"
+                            }
+                        ],
+                        "files": [
+                            {
+                                "project_file_id": 451372,
+                                "name": "1680301394781_Screenshot 2023-04-01 032051.png",
+                                "project_id": 3155160,
+                                "uid": 451372,
+                                "status": "done"
+                            },
+                            {
+                                "project_file_id": 451373,
+                                "name": "1680301394782_Screenshot 2023-04-01 032141.png",
+                                "project_id": 3155160,
+                                "uid": 451373,
+                                "status": "done"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4149507,
+                "developer_id": 3077530,
+                "position": "Full-Stack Developer",
+                "company": "Freelance ",
+                "start_year": 2019,
+                "start_month": "June",
+                "end_year": 2022,
+                "end_month": "July",
+                "details": "",
+                "url": null,
+                "contribution": null,
+                "outcome": null,
+                "created_date": "2023-02-14 17:28:38",
+                "updated_date": "2023-12-01 23:36:05",
+                "employment_type": "Freelance",
+                "skills": [],
+                "projects": [
+                    {
+                        "id": 3155164,
+                        "developer_id": 3077530,
+                        "project_name": "Blocksight",
+                        "start_year": 2021,
+                        "start_month": "October",
+                        "end_year": 2022,
+                        "end_month": "July",
+                        "details": "• Developed Blocksight, used to discover profitable crypto opportunities ahead of others.\r\n• Created a platform for finding hot tokens and NFT projects quickly.\r\n• Designed and implemented multiple analytics dashboards for tracking top crypto assets and all wallets on the blockchain.\r\n• Worked as a Full Stack Developer, utilizing React Native, TypeScript, Node.js, and Express.js.\r\n• Developed the app from scratch, including its architecture and functionality. ",
+                        "url": "https://blocksight.com/",
+                        "outcome": "A progressive web and mobile app that lets users know profitable crypto opportunities before anyone else.\r\n",
+                        "contribution": null,
+                        "experience_id": 4149507,
+                        "created_date": "2023-03-31 22:28:47",
+                        "updated_date": "2024-05-06 19:28:43",
+                        "skills": [
+                            {
+                                "id": 96795101,
+                                "project_id": 3155164,
+                                "skill_id": 120,
+                                "created_date": "2024-05-06 19:28:52",
+                                "updated_date": "2024-05-06 19:28:52",
+                                "skill_name": "Node.js"
+                            },
+                            {
+                                "id": 96795102,
+                                "project_id": 3155164,
+                                "skill_id": 158,
+                                "created_date": "2024-05-06 19:28:52",
+                                "updated_date": "2024-05-06 19:28:52",
+                                "skill_name": "Typescript"
+                            },
+                            {
+                                "id": 96795103,
+                                "project_id": 3155164,
+                                "skill_id": 160,
+                                "created_date": "2024-05-06 19:28:52",
+                                "updated_date": "2024-05-06 19:28:52",
+                                "skill_name": "React Native"
+                            },
+                            {
+                                "id": 96795104,
+                                "project_id": 3155164,
+                                "skill_id": 282,
+                                "created_date": "2024-05-06 19:28:52",
+                                "updated_date": "2024-05-06 19:28:52",
+                                "skill_name": "Express.js"
+                            },
+                            {
+                                "id": 96795105,
+                                "project_id": 3155164,
+                                "skill_id": 2031,
+                                "created_date": "2024-05-06 19:28:52",
+                                "updated_date": "2024-05-06 19:28:52",
+                                "skill_name": "React"
+                            },
+                            {
+                                "id": 96795106,
+                                "project_id": 3155164,
+                                "skill_id": 2144,
+                                "created_date": "2024-05-06 19:28:52",
+                                "updated_date": "2024-05-06 19:28:52",
+                                "skill_name": "NFT"
+                            },
+                            {
+                                "id": 96795107,
+                                "project_id": 3155164,
+                                "skill_id": 2145,
+                                "created_date": "2024-05-06 19:28:52",
+                                "updated_date": "2024-05-06 19:28:52",
+                                "skill_name": "Crypto"
+                            },
+                            {
+                                "id": 96795108,
+                                "project_id": 3155164,
+                                "skill_id": 304,
+                                "created_date": "2024-05-06 19:28:52",
+                                "updated_date": "2024-05-06 19:28:52",
+                                "skill_name": "Blockchain"
+                            }
+                        ],
+                        "files": []
+                    },
+                    {
+                        "id": 3427537,
+                        "developer_id": 3077530,
+                        "project_name": "SellGuage",
+                        "start_year": 2019,
+                        "start_month": "June",
+                        "end_year": 2022,
+                        "end_month": "July",
+                        "details": "• Developed SellGauge, a platform designed to streamline the car selling process, ensuring sellers receive the best offers by facilitating a competitive bidding environment.\n• Implemented a user-friendly interface, enhancing the experience for sellers to navigate the market, compare offers, and make informed decisions quickly and efficiently.\n• Enabled robust data management and real-time market analytics by integrating React for front-end and Python Django for back-end processes.\n• Employed advanced web development tools, including React, Python, Django, and various modern libraries and frameworks, to deliver a high-performance, secure application.\n- Leveraged Playwright for automated browser testing, ensuring the application's functionality and user interface met quality standards across multiple browsers and devices.",
+                        "url": "https://www.sellgauge.com/",
+                        "outcome": "The outcome of the SellGauge project was the successful launch of a platform that enhanced the car-selling process, maximizing seller profits through competitive bidding and providing a seamless and user-friendly experience.\r\n",
+                        "contribution": null,
+                        "experience_id": 4149507,
+                        "created_date": "2024-05-06 19:36:57",
+                        "updated_date": "2024-05-13 18:59:55",
+                        "skills": [
+                            {
+                                "id": 97163606,
+                                "project_id": 3427537,
+                                "skill_id": 20,
+                                "created_date": "2024-05-13 19:00:50",
+                                "updated_date": "2024-05-13 19:00:50",
+                                "skill_name": "Python"
+                            },
+                            {
+                                "id": 97163607,
+                                "project_id": 3427537,
+                                "skill_id": 25,
+                                "created_date": "2024-05-13 19:00:50",
+                                "updated_date": "2024-05-13 19:00:50",
+                                "skill_name": "Django"
+                            },
+                            {
+                                "id": 97163608,
+                                "project_id": 3427537,
+                                "skill_id": 862,
+                                "created_date": "2024-05-13 19:00:50",
+                                "updated_date": "2024-05-13 19:00:50",
+                                "skill_name": "Web Development"
+                            },
+                            {
+                                "id": 97163609,
+                                "project_id": 3427537,
+                                "skill_id": 2031,
+                                "created_date": "2024-05-13 19:00:50",
+                                "updated_date": "2024-05-13 19:00:50",
+                                "skill_name": "React"
+                            },
+                            {
+                                "id": 97163610,
+                                "project_id": 3427537,
+                                "skill_id": 2189,
+                                "created_date": "2024-05-13 19:00:50",
+                                "updated_date": "2024-05-13 19:00:50",
+                                "skill_name": "Data Management"
+                            },
+                            {
+                                "id": 97163614,
+                                "project_id": 3427537,
+                                "skill_id": 2167,
+                                "created_date": "2024-05-13 19:00:50",
+                                "updated_date": "2024-05-13 19:00:50",
+                                "skill_name": "Playwright"
+                            }
+                        ],
+                        "files": [
+                            {
+                                "project_file_id": 552034,
+                                "name": "1715626832723_download.png",
+                                "project_id": 3427537,
+                                "uid": 552034,
+                                "status": "done"
+                            },
+                            {
+                                "project_file_id": 552035,
+                                "name": "1715626851005_download (2).png",
+                                "project_id": 3427537,
+                                "uid": 552035,
+                                "status": "done"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3124425,
+                        "developer_id": 3077530,
+                        "project_name": "Doczo ",
+                        "start_year": 2020,
+                        "start_month": "January",
+                        "end_year": 2021,
+                        "end_month": "May",
+                        "details": "• Worked on an innovative platform to provide easy access to doctors and hospitals in a specified area. \r\n• Included a user-friendly interface, users can quickly find the right doctor based on their profession and location, making it a convenient option for those seeking medical assistance. \r\n• Featured a hospital directory where users can view available doctors and facilities and contact hospitals directly for further information. \r\n• Used Next.js, React Hooks, Redux, JavaScript, GitHub, React, Material UI, Tailwind CSS, and HTML templating engines.",
+                        "url": "https://www.doczo.com/",
+                        "outcome": "Developed to cater to the Indian market, Doczo is a valuable resource for individuals seeking quality healthcare services in their vicinity.\r\n",
+                        "contribution": null,
+                        "experience_id": 4149507,
+                        "created_date": "2023-02-28 13:55:32",
+                        "updated_date": "2024-05-06 19:28:52",
+                        "skills": [
+                            {
+                                "id": 96795109,
+                                "project_id": 3124425,
+                                "skill_id": 1271,
+                                "created_date": "2024-05-06 19:28:52",
+                                "updated_date": "2024-05-06 19:28:52",
+                                "skill_name": "Microsoft Access"
+                            },
+                            {
+                                "id": 96795110,
+                                "project_id": 3124425,
+                                "skill_id": 121,
+                                "created_date": "2024-05-06 19:28:52",
+                                "updated_date": "2024-05-06 19:28:52",
+                                "skill_name": "Redux"
+                            },
+                            {
+                                "id": 96795111,
+                                "project_id": 3124425,
+                                "skill_id": 93,
+                                "created_date": "2024-05-06 19:28:52",
+                                "updated_date": "2024-05-06 19:28:52",
+                                "skill_name": "JavaScript"
+                            },
+                            {
+                                "id": 96795112,
+                                "project_id": 3124425,
+                                "skill_id": 2101,
+                                "created_date": "2024-05-06 19:28:52",
+                                "updated_date": "2024-05-06 19:28:52",
+                                "skill_name": "React Hooks"
+                            },
+                            {
+                                "id": 96795113,
+                                "project_id": 3124425,
+                                "skill_id": 602,
+                                "created_date": "2024-05-06 19:28:52",
+                                "updated_date": "2024-05-06 19:28:52",
+                                "skill_name": "Material UI"
+                            },
+                            {
+                                "id": 96795114,
+                                "project_id": 3124425,
+                                "skill_id": 73,
+                                "created_date": "2024-05-06 19:28:52",
+                                "updated_date": "2024-05-06 19:28:52",
+                                "skill_name": "GitHub"
+                            },
+                            {
+                                "id": 96795115,
+                                "project_id": 3124425,
+                                "skill_id": 107,
+                                "created_date": "2024-05-06 19:28:52",
+                                "updated_date": "2024-05-06 19:28:52",
+                                "skill_name": "HTML/CSS"
+                            },
+                            {
+                                "id": 96795116,
+                                "project_id": 3124425,
+                                "skill_id": 2109,
+                                "created_date": "2024-05-06 19:28:52",
+                                "updated_date": "2024-05-06 19:28:52",
+                                "skill_name": "Tailwind CSS"
+                            },
+                            {
+                                "id": 96795117,
+                                "project_id": 3124425,
+                                "skill_id": 2031,
+                                "created_date": "2024-05-06 19:28:52",
+                                "updated_date": "2024-05-06 19:28:52",
+                                "skill_name": "React"
+                            },
+                            {
+                                "id": 96795118,
+                                "project_id": 3124425,
+                                "skill_id": 406,
+                                "created_date": "2024-05-06 19:28:52",
+                                "updated_date": "2024-05-06 19:28:52",
+                                "skill_name": "Next.js"
+                            }
+                        ],
+                        "files": [
+                            {
+                                "project_file_id": 437250,
+                                "name": "1677592532580_Screenshot_20230228_065207.png",
+                                "project_id": 3124425,
+                                "uid": 437250,
+                                "status": "done"
+                            },
+                            {
+                                "project_file_id": 437251,
+                                "name": "1677592532580_Screenshot_20230228_064613.png",
+                                "project_id": 3124425,
+                                "uid": 437251,
+                                "status": "done"
+                            },
+                            {
+                                "project_file_id": 437252,
+                                "name": "1677592592992_Screenshot_20230228_065622.png",
+                                "project_id": 3124425,
+                                "uid": 437252,
+                                "status": "done"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 5715686,
+                "developer_id": 3077530,
+                "position": "Senior Software Engineer",
+                "company": "Lehrstell Inc.",
+                "start_year": 2019,
+                "start_month": "June",
+                "end_year": 2022,
+                "end_month": "September",
+                "details": "",
+                "url": null,
+                "contribution": null,
+                "outcome": null,
+                "created_date": "2023-10-04 23:21:57",
+                "updated_date": "2023-12-01 23:36:25",
+                "employment_type": "Contract",
+                "skills": [],
+                "projects": [
+                    {
+                        "id": 3312749,
+                        "developer_id": 3077530,
+                        "project_name": "Lehrstell-Profil",
+                        "start_year": 2019,
+                        "start_month": "June",
+                        "end_year": 2022,
+                        "end_month": "September",
+                        "details": "• Worked on a comprehensive full-stack web application.\n• Used various technologies such as React, HTML/CSS, PostgreSQL, Node.js, Tailwind CSS, GraphQL, Apolo Client, and Express.js. \n• Implemented Framer Motion for theme, colors, and page transitions.\n• Achieved a user-friendly website design to cater to the needs of weak students.\n• Ensured satisfaction with the website behavior for the target audience.\n• Allowed students to create profiles, upload their education data, and showcase their work trials, certificates, and CVs. \n• Featured an admin section where administrators can view students, teachers, and other statistics about the portal, such as how many students are registered and which jobs are being displayed.\n• Instituted rigorous testing procedures using Mocha and Jest, eliminating 50% of software defects and ensuring a reliable product.\n• Technologies used are AWS, HTML, Redux, Git, JavaScript, GraphQL, Node.js, PostgreSQL, Express.js, React, CSS, GitHub, Tailwind CSS, MongoDB, React Native, React Hooks, Material UI, Typescript. ",
+                        "url": null,
+                        "outcome": "The utilization of a robust technology stack ensured the creation of a responsive and user-friendly interface, providing a seamless experience for managing property transactions.\r\n",
+                        "contribution": null,
+                        "experience_id": 5715686,
+                        "created_date": "2023-10-04 23:21:57",
+                        "updated_date": "2024-04-29 20:01:24",
+                        "skills": [
+                            {
+                                "id": 96405620,
+                                "project_id": 3312749,
+                                "skill_id": 158,
+                                "created_date": "2024-04-29 20:01:24",
+                                "updated_date": "2024-04-29 20:01:24",
+                                "skill_name": "Typescript"
+                            },
+                            {
+                                "id": 96405621,
+                                "project_id": 3312749,
+                                "skill_id": 258,
+                                "created_date": "2024-04-29 20:01:24",
+                                "updated_date": "2024-04-29 20:01:24",
+                                "skill_name": "Git"
+                            },
+                            {
+                                "id": 96405622,
+                                "project_id": 3312749,
+                                "skill_id": 160,
+                                "created_date": "2024-04-29 20:01:24",
+                                "updated_date": "2024-04-29 20:01:24",
+                                "skill_name": "React Native"
+                            },
+                            {
+                                "id": 96405623,
+                                "project_id": 3312749,
+                                "skill_id": 269,
+                                "created_date": "2024-04-29 20:01:24",
+                                "updated_date": "2024-04-29 20:01:24",
+                                "skill_name": "Statistics"
+                            },
+                            {
+                                "id": 96405624,
+                                "project_id": 3312749,
+                                "skill_id": 282,
+                                "created_date": "2024-04-29 20:01:24",
+                                "updated_date": "2024-04-29 20:01:24",
+                                "skill_name": "Express.js"
+                            },
+                            {
+                                "id": 96405625,
+                                "project_id": 3312749,
+                                "skill_id": 73,
+                                "created_date": "2024-04-29 20:01:24",
+                                "updated_date": "2024-04-29 20:01:24",
+                                "skill_name": "GitHub"
+                            },
+                            {
+                                "id": 96405626,
+                                "project_id": 3312749,
+                                "skill_id": 346,
+                                "created_date": "2024-04-29 20:01:24",
+                                "updated_date": "2024-04-29 20:01:24",
+                                "skill_name": "Mocha"
+                            },
+                            {
+                                "id": 96405627,
+                                "project_id": 3312749,
+                                "skill_id": 93,
+                                "created_date": "2024-04-29 20:01:24",
+                                "updated_date": "2024-04-29 20:01:24",
+                                "skill_name": "JavaScript"
+                            },
+                            {
+                                "id": 96405628,
+                                "project_id": 3312749,
+                                "skill_id": 107,
+                                "created_date": "2024-04-29 20:01:24",
+                                "updated_date": "2024-04-29 20:01:24",
+                                "skill_name": "HTML/CSS"
+                            },
+                            {
+                                "id": 96405629,
+                                "project_id": 3312749,
+                                "skill_id": 86,
+                                "created_date": "2024-04-29 20:01:24",
+                                "updated_date": "2024-04-29 20:01:24",
+                                "skill_name": "PostgreSQL"
+                            },
+                            {
+                                "id": 96405630,
+                                "project_id": 3312749,
+                                "skill_id": 114,
+                                "created_date": "2024-04-29 20:01:24",
+                                "updated_date": "2024-04-29 20:01:24",
+                                "skill_name": "SQL"
+                            },
+                            {
+                                "id": 96405631,
+                                "project_id": 3312749,
+                                "skill_id": 116,
+                                "created_date": "2024-04-29 20:01:24",
+                                "updated_date": "2024-04-29 20:01:24",
+                                "skill_name": "MongoDB"
+                            },
+                            {
+                                "id": 96405632,
+                                "project_id": 3312749,
+                                "skill_id": 120,
+                                "created_date": "2024-04-29 20:01:24",
+                                "updated_date": "2024-04-29 20:01:24",
+                                "skill_name": "Node.js"
+                            },
+                            {
+                                "id": 96405633,
+                                "project_id": 3312749,
+                                "skill_id": 121,
+                                "created_date": "2024-04-29 20:01:24",
+                                "updated_date": "2024-04-29 20:01:24",
+                                "skill_name": "Redux"
+                            },
+                            {
+                                "id": 96405634,
+                                "project_id": 3312749,
+                                "skill_id": 159,
+                                "created_date": "2024-04-29 20:01:24",
+                                "updated_date": "2024-04-29 20:01:24",
+                                "skill_name": "GraphQL"
+                            },
+                            {
+                                "id": 96405635,
+                                "project_id": 3312749,
+                                "skill_id": 433,
+                                "created_date": "2024-04-29 20:01:24",
+                                "updated_date": "2024-04-29 20:01:24",
+                                "skill_name": "AWS"
+                            },
+                            {
+                                "id": 96405636,
+                                "project_id": 3312749,
+                                "skill_id": 485,
+                                "created_date": "2024-04-29 20:01:24",
+                                "updated_date": "2024-04-29 20:01:24",
+                                "skill_name": "Jest"
+                            },
+                            {
+                                "id": 96405637,
+                                "project_id": 3312749,
+                                "skill_id": 602,
+                                "created_date": "2024-04-29 20:01:24",
+                                "updated_date": "2024-04-29 20:01:24",
+                                "skill_name": "Material UI"
+                            },
+                            {
+                                "id": 96405638,
+                                "project_id": 3312749,
+                                "skill_id": 2031,
+                                "created_date": "2024-04-29 20:01:24",
+                                "updated_date": "2024-04-29 20:01:24",
+                                "skill_name": "React"
+                            },
+                            {
+                                "id": 96405639,
+                                "project_id": 3312749,
+                                "skill_id": 2109,
+                                "created_date": "2024-04-29 20:01:24",
+                                "updated_date": "2024-04-29 20:01:24",
+                                "skill_name": "Tailwind CSS"
+                            },
+                            {
+                                "id": 96405640,
+                                "project_id": 3312749,
+                                "skill_id": 2101,
+                                "created_date": "2024-04-29 20:01:24",
+                                "updated_date": "2024-04-29 20:01:24",
+                                "skill_name": "React Hooks"
+                            }
+                        ],
+                        "files": [
+                            {
+                                "project_file_id": 511067,
+                                "name": "1696461717547_Screenshot from 2023-10-05 04-19-52.png",
+                                "project_id": 3312749,
+                                "uid": 511067,
+                                "status": "done"
+                            },
+                            {
+                                "project_file_id": 511068,
+                                "name": "1696461717548_Screenshot from 2023-10-05 04-21-32.png",
+                                "project_id": 3312749,
+                                "uid": 511068,
+                                "status": "done"
+                            },
+                            {
+                                "project_file_id": 511069,
+                                "name": "1696461717548_Screenshot from 2023-10-05 04-21-13.png",
+                                "project_id": 3312749,
+                                "uid": 511069,
+                                "status": "done"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4148231,
+                "developer_id": 3077530,
+                "position": "React Developer",
+                "company": "Ebiz Ltd.",
+                "start_year": 2021,
+                "start_month": "June",
+                "end_year": 2021,
+                "end_month": "November",
+                "details": "",
+                "url": null,
+                "contribution": null,
+                "outcome": null,
+                "created_date": "2023-02-14 14:12:03",
+                "updated_date": "2023-09-12 21:42:03",
+                "employment_type": "Full Time",
+                "skills": [
+                    {
+                        "id": 3691984,
+                        "experience_id": 4148231,
+                        "skill_id": 121,
+                        "created_date": "2023-02-14 14:12:03",
+                        "updated_date": "2023-02-14 14:12:03",
+                        "skill_name": "Redux"
+                    },
+                    {
+                        "id": 3691983,
+                        "experience_id": 4148231,
+                        "skill_id": 2031,
+                        "created_date": "2023-02-14 14:12:03",
+                        "updated_date": "2023-02-14 14:12:03",
+                        "skill_name": "React"
+                    },
+                    {
+                        "id": 3691982,
+                        "experience_id": 4148231,
+                        "skill_id": 2145,
+                        "created_date": "2023-02-14 14:12:03",
+                        "updated_date": "2023-02-14 14:12:03",
+                        "skill_name": "Crypto"
+                    }
+                ],
+                "projects": [
+                    {
+                        "id": 3111147,
+                        "developer_id": 3077530,
+                        "project_name": "Crypto Advisory",
+                        "start_year": 2021,
+                        "start_month": "June",
+                        "end_year": 2021,
+                        "end_month": "November",
+                        "details": "• Worked as a senior developer on a crypto advisory React app. \r\n• Provided users with up-to-date information on the latest trends, news, and API data from various cryptocurrency markets. \r\n• Users can easily log in or sign up to access this information and stay informed about the rapidly changing world of cryptocurrency.\r\n• Integrated API data from various cryptocurrency markets. \r\n• Developed an in-depth understanding of how APIs work and how to properly integrate them into React applications with Apollo Client and GraphQL queries. \r\n• Used WebRTC, WebScrapping, React, Typescript, GCP, Git etc.",
+                        "url": null,
+                        "outcome": "\r\nThe project was successfully deployed. Made updates according to feedback.\r\n",
+                        "contribution": null,
+                        "experience_id": 4148231,
+                        "created_date": "2023-02-14 18:04:05",
+                        "updated_date": "2024-01-16 21:31:46",
+                        "skills": [
+                            {
+                                "id": 89828362,
+                                "project_id": 3111147,
+                                "skill_id": 159,
+                                "created_date": "2024-01-16 21:31:46",
+                                "updated_date": "2024-01-16 21:31:46",
+                                "skill_name": "GraphQL"
+                            },
+                            {
+                                "id": 89828363,
+                                "project_id": 3111147,
+                                "skill_id": 160,
+                                "created_date": "2024-01-16 21:31:46",
+                                "updated_date": "2024-01-16 21:31:46",
+                                "skill_name": "React Native"
+                            },
+                            {
+                                "id": 89828364,
+                                "project_id": 3111147,
+                                "skill_id": 116,
+                                "created_date": "2024-01-16 21:31:46",
+                                "updated_date": "2024-01-16 21:31:46",
+                                "skill_name": "MongoDB"
+                            },
+                            {
+                                "id": 89828365,
+                                "project_id": 3111147,
+                                "skill_id": 107,
+                                "created_date": "2024-01-16 21:31:46",
+                                "updated_date": "2024-01-16 21:31:46",
+                                "skill_name": "HTML/CSS"
+                            },
+                            {
+                                "id": 89828366,
+                                "project_id": 3111147,
+                                "skill_id": 406,
+                                "created_date": "2024-01-16 21:31:46",
+                                "updated_date": "2024-01-16 21:31:46",
+                                "skill_name": "Next.js"
+                            },
+                            {
+                                "id": 89828367,
+                                "project_id": 3111147,
+                                "skill_id": 2101,
+                                "created_date": "2024-01-16 21:31:46",
+                                "updated_date": "2024-01-16 21:31:46",
+                                "skill_name": "React Hooks"
+                            },
+                            {
+                                "id": 89828368,
+                                "project_id": 3111147,
+                                "skill_id": 121,
+                                "created_date": "2024-01-16 21:31:46",
+                                "updated_date": "2024-01-16 21:31:46",
+                                "skill_name": "Redux"
+                            },
+                            {
+                                "id": 89828369,
+                                "project_id": 3111147,
+                                "skill_id": 602,
+                                "created_date": "2024-01-16 21:31:46",
+                                "updated_date": "2024-01-16 21:31:46",
+                                "skill_name": "Material UI"
+                            },
+                            {
+                                "id": 89828370,
+                                "project_id": 3111147,
+                                "skill_id": 328,
+                                "created_date": "2024-01-16 21:31:46",
+                                "updated_date": "2024-01-16 21:31:46",
+                                "skill_name": "Third party APIs"
+                            },
+                            {
+                                "id": 89828371,
+                                "project_id": 3111147,
+                                "skill_id": 269,
+                                "created_date": "2024-01-16 21:31:46",
+                                "updated_date": "2024-01-16 21:31:46",
+                                "skill_name": "Statistics"
+                            },
+                            {
+                                "id": 89828372,
+                                "project_id": 3111147,
+                                "skill_id": 2031,
+                                "created_date": "2024-01-16 21:31:46",
+                                "updated_date": "2024-01-16 21:31:46",
+                                "skill_name": "React"
+                            },
+                            {
+                                "id": 89828373,
+                                "project_id": 3111147,
+                                "skill_id": 93,
+                                "created_date": "2024-01-16 21:31:46",
+                                "updated_date": "2024-01-16 21:31:46",
+                                "skill_name": "JavaScript"
+                            },
+                            {
+                                "id": 89828374,
+                                "project_id": 3111147,
+                                "skill_id": 1271,
+                                "created_date": "2024-01-16 21:31:46",
+                                "updated_date": "2024-01-16 21:31:46",
+                                "skill_name": "Microsoft Access"
+                            },
+                            {
+                                "id": 89828375,
+                                "project_id": 3111147,
+                                "skill_id": 304,
+                                "created_date": "2024-01-16 21:31:46",
+                                "updated_date": "2024-01-16 21:31:46",
+                                "skill_name": "Blockchain"
+                            },
+                            {
+                                "id": 89828376,
+                                "project_id": 3111147,
+                                "skill_id": 2145,
+                                "created_date": "2024-01-16 21:31:46",
+                                "updated_date": "2024-01-16 21:31:46",
+                                "skill_name": "Crypto"
+                            },
+                            {
+                                "id": 89828377,
+                                "project_id": 3111147,
+                                "skill_id": 580,
+                                "created_date": "2024-01-16 21:31:46",
+                                "updated_date": "2024-01-16 21:31:46",
+                                "skill_name": "Apollo"
+                            },
+                            {
+                                "id": 89828378,
+                                "project_id": 3111147,
+                                "skill_id": 1602,
+                                "created_date": "2024-01-16 21:31:46",
+                                "updated_date": "2024-01-16 21:31:46",
+                                "skill_name": "Apollo Client"
+                            },
+                            {
+                                "id": 89828379,
+                                "project_id": 3111147,
+                                "skill_id": 2100,
+                                "created_date": "2024-01-16 21:31:46",
+                                "updated_date": "2024-01-16 21:31:46",
+                                "skill_name": "WebRTC"
+                            },
+                            {
+                                "id": 89828380,
+                                "project_id": 3111147,
+                                "skill_id": 70,
+                                "created_date": "2024-01-16 21:31:46",
+                                "updated_date": "2024-01-16 21:31:46",
+                                "skill_name": "GCP"
+                            },
+                            {
+                                "id": 89828381,
+                                "project_id": 3111147,
+                                "skill_id": 258,
+                                "created_date": "2024-01-16 21:31:46",
+                                "updated_date": "2024-01-16 21:31:46",
+                                "skill_name": "Git"
+                            },
+                            {
+                                "id": 89828382,
+                                "project_id": 3111147,
+                                "skill_id": 158,
+                                "created_date": "2024-01-16 21:31:46",
+                                "updated_date": "2024-01-16 21:31:46",
+                                "skill_name": "Typescript"
+                            }
+                        ],
+                        "files": []
+                    }
+                ]
+            },
+            {
+                "id": 5425263,
+                "developer_id": 3077530,
+                "position": "Senior Software Engineer II",
+                "company": "Devsinc",
+                "start_year": 2022,
+                "start_month": "December",
+                "end_year": 0,
+                "end_month": "null",
+                "details": "",
+                "url": null,
+                "contribution": null,
+                "outcome": null,
+                "created_date": "2023-08-21 10:21:20",
+                "updated_date": "2023-12-01 23:37:53",
+                "employment_type": "Full Time",
+                "skills": [],
+                "projects": [
+                    {
+                        "id": 3430806,
+                        "developer_id": 3077530,
+                        "project_name": "elGrocer | Grocery Shopping App",
+                        "start_year": 2023,
+                        "start_month": "January",
+                        "end_year": 2024,
+                        "end_month": "February",
+                        "details": "- Contributed to the development of a grocery shopping mobile application designed for shoppers to efficiently manage their orders and deliveries.\n- Utilized React Native as the primary framework, ensuring a smooth and responsive user experience across both iOS and Android platforms.\n- Implemented various features including real-time order tracking, in-app notifications, and secure payment processing, offering a seamless shopping experience.\n- Integrated automated testing using Cypress to ensure all functionalities met the highest quality standards and provided a robust performance.\n- Employed a technology stack comprising React Native, Redux, Tailwind CSS, Node.js, Express.js, and MongoDB, enabling efficient data handling and state management.",
+                        "url": "https://play.google.com/store/apps/details?id=com.el_grocer.shopper&hl=en&gl=US",
+                        "outcome": "Overall, El Grocer Shopper is a comprehensive grocery shopping app that streamlines the order and delivery process. Its user-friendly design and efficient features make it an ideal solution for shoppers looking to manage their grocery orders easily and effectively.\r\n",
+                        "contribution": null,
+                        "experience_id": 5425263,
+                        "created_date": "2024-05-14 08:08:16",
+                        "updated_date": "2024-05-14 08:08:16",
+                        "skills": [
+                            {
+                                "id": 97183372,
+                                "project_id": 3430806,
+                                "skill_id": 116,
+                                "created_date": "2024-05-14 08:08:22",
+                                "updated_date": "2024-05-14 08:08:22",
+                                "skill_name": "MongoDB"
+                            },
+                            {
+                                "id": 97183373,
+                                "project_id": 3430806,
+                                "skill_id": 120,
+                                "created_date": "2024-05-14 08:08:22",
+                                "updated_date": "2024-05-14 08:08:22",
+                                "skill_name": "Node.js"
+                            },
+                            {
+                                "id": 97183374,
+                                "project_id": 3430806,
+                                "skill_id": 121,
+                                "created_date": "2024-05-14 08:08:22",
+                                "updated_date": "2024-05-14 08:08:22",
+                                "skill_name": "Redux"
+                            },
+                            {
+                                "id": 97183375,
+                                "project_id": 3430806,
+                                "skill_id": 160,
+                                "created_date": "2024-05-14 08:08:22",
+                                "updated_date": "2024-05-14 08:08:22",
+                                "skill_name": "React Native"
+                            },
+                            {
+                                "id": 97183376,
+                                "project_id": 3430806,
+                                "skill_id": 282,
+                                "created_date": "2024-05-14 08:08:22",
+                                "updated_date": "2024-05-14 08:08:22",
+                                "skill_name": "Express.js"
+                            },
+                            {
+                                "id": 97183377,
+                                "project_id": 3430806,
+                                "skill_id": 1314,
+                                "created_date": "2024-05-14 08:08:22",
+                                "updated_date": "2024-05-14 08:08:22",
+                                "skill_name": "Cypress"
+                            },
+                            {
+                                "id": 97183378,
+                                "project_id": 3430806,
+                                "skill_id": 2109,
+                                "created_date": "2024-05-14 08:08:22",
+                                "updated_date": "2024-05-14 08:08:22",
+                                "skill_name": "Tailwind CSS"
+                            }
+                        ],
+                        "files": []
+                    },
+                    {
+                        "id": 3296282,
+                        "developer_id": 3077530,
+                        "project_name": "MERN Stack Development ",
+                        "start_year": 2022,
+                        "start_month": "October",
+                        "end_year": 0,
+                        "end_month": null,
+                        "details": "• Developed the backend of the online artifact-selling store completely on Go.\n• Worked on the project from scratch and created User, admin, seller, and buyer routes with user authentication and authorization.\n• Collaborated with cross-functional teams to gather project requirements.\n• Designed the database schema and data models.\n• Developed the backend API using Node.js and Express.js. \n• Created responsive user interfaces using React. \n• Developed a platform for selling antique items.\n• Addressed the client's unique requirement to enhance the website's overall smoothness.\n• Ensured seamless transitions for color changes and page rendering.\n• Utilized Framer Motion to implement smooth transitions in the Next.js application. \n• Implemented authentication and authorization features.\n• Integrated third-party APIs for external services.\n• Designed and implemented the mobile app using React Native.\n• Conducted code reviews to ensure code quality and adherence to best practices.\n• Worked on performance optimization and scalability of the application.\n• Debugged and resolved issues reported by the quality assurance team.\n• Deployed the application to production servers.\n• Provided ongoing support and maintenance for the project.\n• Documented the codebase and development processes for future reference. \n• Leveraged Cypress within our CI/CD pipeline to automate regression tests when updates were pushed to the codebase.\n• Used WebRTC, WebScrapping, HTML/CSS, React, Typescript, GCP, Git etc.\n• Used LLM like ChatGPT to boost productivity and achieve results efficiently.",
+                        "url": null,
+                        "outcome": "Ensured successful delivery of the tasks on time and fulfilled client expectations.\r\n",
+                        "contribution": null,
+                        "experience_id": 5425263,
+                        "created_date": "2023-09-12 21:39:08",
+                        "updated_date": "2024-05-13 18:24:48",
+                        "skills": [
+                            {
+                                "id": 97155113,
+                                "project_id": 3296282,
+                                "skill_id": 63,
+                                "created_date": "2024-05-13 18:24:48",
+                                "updated_date": "2024-05-13 18:24:48",
+                                "skill_name": "CI/CD"
+                            },
+                            {
+                                "id": 97155114,
+                                "project_id": 3296282,
+                                "skill_id": 158,
+                                "created_date": "2024-05-13 18:24:48",
+                                "updated_date": "2024-05-13 18:24:48",
+                                "skill_name": "Typescript"
+                            },
+                            {
+                                "id": 97155115,
+                                "project_id": 3296282,
+                                "skill_id": 160,
+                                "created_date": "2024-05-13 18:24:48",
+                                "updated_date": "2024-05-13 18:24:48",
+                                "skill_name": "React Native"
+                            },
+                            {
+                                "id": 97155116,
+                                "project_id": 3296282,
+                                "skill_id": 120,
+                                "created_date": "2024-05-13 18:24:48",
+                                "updated_date": "2024-05-13 18:24:48",
+                                "skill_name": "Node.js"
+                            },
+                            {
+                                "id": 97155117,
+                                "project_id": 3296282,
+                                "skill_id": 195,
+                                "created_date": "2024-05-13 18:24:48",
+                                "updated_date": "2024-05-13 18:24:48",
+                                "skill_name": "Code Reviews"
+                            },
+                            {
+                                "id": 97155118,
+                                "project_id": 3296282,
+                                "skill_id": 2031,
+                                "created_date": "2024-05-13 18:24:48",
+                                "updated_date": "2024-05-13 18:24:48",
+                                "skill_name": "React"
+                            },
+                            {
+                                "id": 97155119,
+                                "project_id": 3296282,
+                                "skill_id": 328,
+                                "created_date": "2024-05-13 18:24:48",
+                                "updated_date": "2024-05-13 18:24:48",
+                                "skill_name": "Third party APIs"
+                            },
+                            {
+                                "id": 97155120,
+                                "project_id": 3296282,
+                                "skill_id": 282,
+                                "created_date": "2024-05-13 18:24:48",
+                                "updated_date": "2024-05-13 18:24:48",
+                                "skill_name": "Express.js"
+                            },
+                            {
+                                "id": 97155121,
+                                "project_id": 3296282,
+                                "skill_id": 406,
+                                "created_date": "2024-05-13 18:24:48",
+                                "updated_date": "2024-05-13 18:24:48",
+                                "skill_name": "Next.js"
+                            },
+                            {
+                                "id": 97155122,
+                                "project_id": 3296282,
+                                "skill_id": 2100,
+                                "created_date": "2024-05-13 18:24:48",
+                                "updated_date": "2024-05-13 18:24:48",
+                                "skill_name": "WebRTC"
+                            },
+                            {
+                                "id": 97155123,
+                                "project_id": 3296282,
+                                "skill_id": 258,
+                                "created_date": "2024-05-13 18:24:48",
+                                "updated_date": "2024-05-13 18:24:48",
+                                "skill_name": "Git"
+                            },
+                            {
+                                "id": 97155124,
+                                "project_id": 3296282,
+                                "skill_id": 2096,
+                                "created_date": "2024-05-13 18:24:48",
+                                "updated_date": "2024-05-13 18:24:48",
+                                "skill_name": "Go"
+                            },
+                            {
+                                "id": 97155125,
+                                "project_id": 3296282,
+                                "skill_id": 107,
+                                "created_date": "2024-05-13 18:24:48",
+                                "updated_date": "2024-05-13 18:24:48",
+                                "skill_name": "HTML/CSS"
+                            },
+                            {
+                                "id": 97155126,
+                                "project_id": 3296282,
+                                "skill_id": 2161,
+                                "created_date": "2024-05-13 18:24:48",
+                                "updated_date": "2024-05-13 18:24:48",
+                                "skill_name": "LLM"
+                            },
+                            {
+                                "id": 97155127,
+                                "project_id": 3296282,
+                                "skill_id": 1092,
+                                "created_date": "2024-05-13 18:24:48",
+                                "updated_date": "2024-05-13 18:24:48",
+                                "skill_name": "Optimization"
+                            },
+                            {
+                                "id": 97155128,
+                                "project_id": 3296282,
+                                "skill_id": 1314,
+                                "created_date": "2024-05-13 18:24:48",
+                                "updated_date": "2024-05-13 18:24:48",
+                                "skill_name": "Cypress"
+                            }
+                        ],
+                        "files": []
+                    }
+                ]
+            }
+        ],
+        "cloud_certification_info": [],
+        "rates_info": {
+            "user_id": 3077530,
+            "expected_salary": 5000000,
+            "current_salary": 4000000,
+            "local_currency": "PKR"
+        },
+        "agency_info": []
+    }
+}
