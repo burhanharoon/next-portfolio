@@ -35,4 +35,4 @@ yarn-error.log*
 .superpowers/
 .claude/
 
-package-lock.json
+package-lock.jsondocs/
