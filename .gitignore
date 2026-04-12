@@ -31,4 +31,8 @@ yarn-error.log*
 # vercel
 .vercel
 
+# local tooling
+.superpowers/
+.claude/
+
 package-lock.json
