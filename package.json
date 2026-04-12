@@ -14,14 +14,17 @@
   "dependencies": {
     "@portabletext/react": "^6.0.3",
     "@sanity/image-url": "^2.1.1",
-    "@vercel/speed-insights": "^2.0.0",
+    "@tailwindcss/typography": "^0.5.19",
     "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
     "framer-motion": "^12.38.0",
     "next": "16.2.3",
     "next-sanity": "^12.2.2",
     "react": "19.2.4",
     "react-dom": "19.2.4",
-    "sanity": "^5.20.0"
+    "react-markdown": "^10.1.0",
+    "sanity": "^5.20.0",
+    "sanity-plugin-markdown": "^8.0.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

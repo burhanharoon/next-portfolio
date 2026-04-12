@@ -80,6 +80,7 @@ export function Hero() {
                   src="/images/burhanharoon.jpeg"
                   alt="Burhan Haroon"
                   fill
+                  sizes="(max-width: 768px) 100vw, 340px"
                   className="object-cover"
                   priority
                 />

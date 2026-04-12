@@ -27,11 +27,7 @@ export const blogPost = defineType({
     defineField({
       name: "body",
       title: "Body",
-      type: "array",
-      of: [
-        { type: "block" },
-        { type: "image", options: { hotspot: true } },
-      ],
+      type: "markdown",
     }),
     defineField({
       name: "date",

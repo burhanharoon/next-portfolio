@@ -14,7 +14,7 @@ export interface BlogPost {
   title: string;
   slug: string;
   excerpt: string;
-  body: any[]; // Portable Text blocks
+  body: string; // Markdown content
   date: string;
   tags: string[];
   externalUrl: string | null;

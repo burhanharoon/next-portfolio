@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getBlogPost, getBlogPosts } from "@/sanity/queries";
-import { PortableText } from "@portabletext/react";
+import ReactMarkdown from "react-markdown";
 import { Badge } from "@/components/ui/badge";
 import { SITE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -62,7 +62,7 @@ export default async function BlogPostPage({ params }: Props) {
           </time>
         </div>
         <div className="mt-10 prose prose-sm max-w-none prose-headings:font-black prose-a:text-secondary prose-a:font-bold">
-          <PortableText value={post.body} />
+          <ReactMarkdown>{post.body}</ReactMarkdown>
         </div>
       </div>
     </article>
