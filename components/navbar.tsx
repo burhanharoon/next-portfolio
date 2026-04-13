@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { NAV_LINKS, SOCIAL_LINKS } from "@/lib/constants";
+import { NAV_LINKS, LOGO_LINK } from "@/lib/constants";
 import { BrutalButton } from "@/components/ui/brutal-button";
 
 export function Navbar() {
@@ -23,13 +23,13 @@ export function Navbar() {
     >
       <div className="mx-auto max-w-7xl flex items-center justify-between px-6 py-4">
         {/* Logo */}
-        <Link href="#home" className="text-xl font-black">
+        <Link href={LOGO_LINK} className="text-xl font-black">
           BH<span className="text-secondary">.</span>
         </Link>
 
         {/* Desktop nav */}
         <div className="hidden md:flex items-center gap-6">
-          {NAV_LINKS.map((link) => (
+          {NAV_LINKS.filter((link) => link.label !== "CONTACT").map((link) => (
             <Link
               key={link.href}
               href={link.href}
@@ -38,7 +38,7 @@ export function Navbar() {
               {link.label}
             </Link>
           ))}
-          <BrutalButton href="#contact" variant="secondary" shadow="black">
+          <BrutalButton href={NAV_LINKS.find((l) => l.label === "CONTACT")!.href} variant="secondary" shadow="black">
             CONTACT
           </BrutalButton>
         </div>
@@ -70,7 +70,7 @@ export function Navbar() {
       {/* Mobile menu */}
       {menuOpen && (
         <div className="md:hidden border-t-[2.5px] border-border bg-bg-primary px-6 py-6 flex flex-col gap-4">
-          {NAV_LINKS.map((link) => (
+          {NAV_LINKS.filter((link) => link.label !== "CONTACT").map((link) => (
             <Link
               key={link.href}
               href={link.href}
@@ -81,7 +81,7 @@ export function Navbar() {
             </Link>
           ))}
           <BrutalButton
-            href="#contact"
+            href={NAV_LINKS.find((l) => l.label === "CONTACT")!.href}
             variant="secondary"
             shadow="black"
             className="w-fit"
