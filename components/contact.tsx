@@ -29,10 +29,10 @@ export function Contact() {
 
         <FadeIn direction="up" delay={0.3}>
           <div className="mt-7 flex flex-wrap gap-3 justify-center">
-            <BrutalButton href={`mailto:${SOCIAL_LINKS.email}`} variant="secondary" shadow="indigo" className="bg-primary text-text-primary border-primary">
+            <BrutalButton href={`mailto:${SOCIAL_LINKS.email}`} variant="secondary" shadow="indigo" className="bg-primary text-text-primary border-primary" data-umami-event="cta-email-me">
               EMAIL ME →
             </BrutalButton>
-            <BrutalButton href={`mailto:${SOCIAL_LINKS.email}`} variant="ghost" shadow="black">
+            <BrutalButton href={`mailto:${SOCIAL_LINKS.email}`} variant="ghost" shadow="black" data-umami-event="cta-schedule-call">
               SCHEDULE A CALL
             </BrutalButton>
           </div>
@@ -47,7 +47,8 @@ export function Contact() {
           ].map((social) => (
             <StaggerItem key={social.label}>
               <a href={social.href} target={social.label === "✉" ? undefined : "_blank"} rel={social.label === "✉" ? undefined : "noopener noreferrer"}
-                className="w-11 h-11 bg-[#222] border-[2px] border-[#444] flex items-center justify-center text-sm font-extrabold text-[#888] hover:text-white hover:border-[#666] transition-colors">
+                className="w-11 h-11 bg-[#222] border-2 border-[#444] flex items-center justify-center text-sm font-extrabold text-[#888] hover:text-white hover:border-[#666] transition-colors"
+                data-umami-event={`contact-social-${social.label === "✉" ? "email" : social.label}`}>
                 {social.label}
               </a>
             </StaggerItem>

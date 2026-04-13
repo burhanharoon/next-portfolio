@@ -25,11 +25,11 @@ export function BlogCards({ posts }: { posts: PostDisplay[] }) {
         return (
           <StaggerItem key={post.slug}>
             {isExternal ? (
-              <a href={href} target="_blank" rel="noopener noreferrer" className={cardClasses}>
+              <a href={href} target="_blank" rel="noopener noreferrer" className={cardClasses} data-umami-event={`blog-${post.slug}`}>
                 <CardContent post={post} isExternal />
               </a>
             ) : (
-              <Link href={href} className={cardClasses}>
+              <Link href={href} className={cardClasses} data-umami-event={`blog-${post.slug}`}>
                 <CardContent post={post} />
               </Link>
             )}

@@ -7,6 +7,7 @@ interface BrutalButtonProps {
   variant?: "primary" | "secondary" | "ghost";
   shadow?: "yellow" | "indigo" | "black";
   className?: string;
+  [key: `data-${string}`]: string | undefined;
 }
 
 export function BrutalButton({
@@ -16,6 +17,7 @@ export function BrutalButton({
   variant = "primary",
   shadow = "black",
   className = "",
+  ...rest
 }: BrutalButtonProps) {
   const base =
     "inline-flex items-center px-6 py-3 border-brutal text-sm font-extrabold transition-transform active:translate-x-0.5 active:translate-y-0.5 active:shadow-none";
@@ -36,14 +38,14 @@ export function BrutalButton({
 
   if (href) {
     return (
-      <Link href={href} className={classes}>
+      <Link href={href} className={classes} {...rest}>
         {children}
       </Link>
     );
   }
 
   return (
-    <button onClick={onClick} className={classes}>
+    <button onClick={onClick} className={classes} {...rest}>
       {children}
     </button>
   );

@@ -42,10 +42,10 @@ export function Hero() {
 
           <FadeIn direction="left" delay={0.3}>
             <div className="mt-7 flex flex-wrap gap-3">
-              <BrutalButton href="#projects" variant="primary" shadow="yellow">
+              <BrutalButton href="#projects" variant="primary" shadow="yellow" data-umami-event="cta-view-my-work">
                 VIEW MY WORK →
               </BrutalButton>
-              <BrutalButton href="#contact" variant="secondary" shadow="black">
+              <BrutalButton href="#contact" variant="secondary" shadow="black" data-umami-event="cta-lets-talk">
                 LET&apos;S TALK
               </BrutalButton>
             </div>
@@ -63,6 +63,7 @@ export function Hero() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 border-brutal bg-white shadow-brutal-sm flex items-center justify-center text-sm font-extrabold hover:shadow-brutal transition-shadow"
+                  data-umami-event={`hero-social-${social.label}`}
                 >
                   {social.label}
                 </a>

@@ -37,7 +37,8 @@ export function ProjectCards({ projects }: { projects: ProjectDisplay[] }) {
                 {project.url && (
                   <a href={project.url} target="_blank" rel="noopener noreferrer"
                     className="px-2.5 py-1 bg-primary border-brutal-thin text-[9px] font-extrabold shadow-brutal-sm hover:shadow-none hover:translate-x-0.5 hover:translate-y-0.5 transition-all"
-                    onClick={(e) => e.stopPropagation()}>
+                    onClick={(e) => e.stopPropagation()}
+                    data-umami-event={`project-live-${project.title.toLowerCase().replace(/\s+/g, "-")}`}>
                     LIVE ↗
                   </a>
                 )}

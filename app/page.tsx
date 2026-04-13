@@ -5,6 +5,7 @@ import { Projects } from "@/components/projects";
 import { Skills } from "@/components/skills";
 import { BlogPreview } from "@/components/blog-preview";
 import { Contact } from "@/components/contact";
+import { TrackSection } from "@/components/ui/track-section";
 import { SITE_URL, SOCIAL_LINKS } from "@/lib/constants";
 
 const jsonLd = {
@@ -28,10 +29,14 @@ export default function Home() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Hero />
       <Companies />
+      <TrackSection id="about" />
       <About />
+      <TrackSection id="projects" />
       <Projects />
       <Skills />
+      <TrackSection id="blog" />
       <BlogPreview />
+      <TrackSection id="contact" />
       <Contact />
     </>
   );
