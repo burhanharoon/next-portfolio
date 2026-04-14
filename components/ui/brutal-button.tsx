@@ -37,8 +37,14 @@ export function BrutalButton({
   const classes = `${base} ${variants[variant]} ${shadows[shadow]} ${className}`;
 
   if (href) {
+    const isExternal = href.startsWith("http");
     return (
-      <Link href={href} className={classes} {...rest}>
+      <Link
+        href={href}
+        className={classes}
+        {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
+        {...rest}
+      >
         {children}
       </Link>
     );
