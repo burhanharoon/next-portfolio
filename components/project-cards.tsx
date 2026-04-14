@@ -28,7 +28,7 @@ export function ProjectCards({ projects }: { projects: ProjectDisplay[] }) {
               {project.imageUrl ? (
                 <img src={project.imageUrl} alt={project.title} className="w-full h-full object-cover" />
               ) : (
-                <span className="text-3xl font-black text-text-primary opacity-10 tracking-tight">{project.title.toUpperCase()}</span>
+                <span className="text-3xl font-black text-text-primary opacity-10 tracking-tight text-center">{project.title.toUpperCase()}</span>
               )}
             </div>
             <div className="p-5">

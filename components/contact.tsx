@@ -32,7 +32,7 @@ export function Contact() {
             <BrutalButton href={`mailto:${SOCIAL_LINKS.email}`} variant="secondary" shadow="indigo" className="bg-primary text-text-primary border-primary" data-umami-event="cta-email-me">
               EMAIL ME →
             </BrutalButton>
-            <BrutalButton href={`mailto:${SOCIAL_LINKS.email}`} variant="ghost" shadow="black" data-umami-event="cta-schedule-call">
+            <BrutalButton href={process.env.NEXT_PUBLIC_CALENDLY_URL || "#"} variant="ghost" shadow="black" data-umami-event="cta-schedule-call">
               SCHEDULE A CALL
             </BrutalButton>
           </div>
